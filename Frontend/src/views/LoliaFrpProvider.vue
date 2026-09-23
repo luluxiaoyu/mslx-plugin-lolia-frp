@@ -642,7 +642,7 @@ async function handleUseTunnel() {
               带宽限制
             </div>
             <div class="text-lg font-bold text-[var(--td-text-color-primary)] font-mono">
-              {{ userInfo.bandwidth_limit }} <span class="text-sm font-medium text-zinc-500">Mbps</span>
+              {{ userInfo.bandwidth_limit * 8 }} <span class="text-sm font-medium text-zinc-500">Mbps</span>
             </div>
           </div>
 
