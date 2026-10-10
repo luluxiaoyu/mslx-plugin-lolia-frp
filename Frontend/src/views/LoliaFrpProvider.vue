@@ -922,7 +922,7 @@ async function handleUseTunnel() {
   }
 }
 
-:global(.dark) .stat-card {
+:global(.dark .stat-card) {
   background: rgba(24, 24, 27, 0.4);
   border: 1px solid rgba(39, 39, 42, 0.8);
   &:hover {
@@ -996,7 +996,7 @@ async function handleUseTunnel() {
   animation: smoothLoadingGlass 0.3s cubic-bezier(0.2, 0.8, 0.2, 1) forwards !important;
 }
 
-:global(.dark) :deep(.t-loading__overlay) {
+:global(.dark .t-loading__overlay) {
   background: rgba(24, 24, 27, 0.6) !important;
 }
 </style>
