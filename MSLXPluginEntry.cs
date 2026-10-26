@@ -12,7 +12,7 @@ public class MSLXPluginEntry : IPlugin
     public string Id => "mslx-plugin-lolia-frp";
     public string Name => "Lolia FRP";
     public string Description => "MSLX 的 Lolia Frp 接入插件，可在 MSLX 中快速添加接入您的 Lolia Frp 隧道。";
-    public string Version => "1.0.3";
+    public string Version => "1.0.4";
     public string Icon => "https://lolia.link/favicon.ico";
     public string MinSDKVersion => "1.5.2";
     public string Developer => "xiaoyu";
@@ -26,7 +26,7 @@ public class MSLXPluginEntry : IPlugin
 
     public void OnLoad()
     {
-        SDK.MSLX.Logger.Info("Lolia FRP 穿透插件 (MSLX.Plugin.Lolia.Frp) v0.0.10 已载入成功~");
+        SDK.MSLX.Logger.Info("Lolia FRP 穿透插件 (MSLX.Plugin.Lolia.Frp) v1.0.5 已载入成功~");
     }
 
     public void OnUnload()

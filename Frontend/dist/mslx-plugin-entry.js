@@ -1,64 +1,64 @@
 (function(){"use strict";try{if(typeof document<"u"){var a=document.createElement("style");a.appendChild(document.createTextNode('@keyframes t-spin{0%{transform:rotate(0)}to{transform:rotate(360deg)}}.t-icon{display:inline-block;vertical-align:middle;width:1em;height:1em}.t-icon:before{font-family:unset}.t-icon-loading{animation:t-spin 1s linear infinite}.t-icon.t-size-s,i.t-size-s{font-size:14px}.t-icon.t-size-m,i.t-size-m{font-size:16px}.t-icon.t-size-l,i.t-size-l{font-size:18px}.visible[data-v-91a4827d]{visibility:visible}.\\[\\&_\\.t-form__item\\]\\:\\!mb-\\[22px\\] .t-form _item[data-v-91a4827d]{margin-bottom:22px!important}.ml-2[data-v-91a4827d]{margin-left:.5rem}.max-h-\\[300px\\][data-v-91a4827d]{max-height:300px}.w-full[data-v-91a4827d]{width:100%}.flex[data-v-91a4827d]{display:flex}.shrink-0[data-v-91a4827d]{flex-shrink:0}.flex-col[data-v-91a4827d]{flex-direction:column}.items-center[data-v-91a4827d]{align-items:center}.justify-between[data-v-91a4827d]{justify-content:space-between}.gap-1\\.5[data-v-91a4827d]{gap:.375rem}.gap-2[data-v-91a4827d]{gap:.5rem}.space-y-1[data-v-91a4827d]>:not([hidden])~:not([hidden]){--un-space-y-reverse:0;margin-top:calc(.25rem * calc(1 - var(--un-space-y-reverse)));margin-bottom:calc(.25rem * var(--un-space-y-reverse))}.overflow-x-hidden[data-v-91a4827d]{overflow-x:hidden}.truncate[data-v-91a4827d]{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.border[data-v-91a4827d]{border-width:1px}.border-\\[var\\(--td-component-border\\)\\][data-v-91a4827d]{border-color:var(--td-component-border)}.rounded-\\[var\\(--td-radius-medium\\)\\][data-v-91a4827d]{border-radius:var(--td-radius-medium)}.border-dashed[data-v-91a4827d]{border-style:dashed}.bg-\\[var\\(--td-bg-color-secondarycontainer\\)\\][data-v-91a4827d]{background-color:var(--td-bg-color-secondarycontainer)}.p-3[data-v-91a4827d]{padding:.75rem}.\\!px-1[data-v-91a4827d]{padding-left:.25rem!important;padding-right:.25rem!important}.pt-2\\.5[data-v-91a4827d]{padding-top:.625rem}.\\!text-\\[10px\\][data-v-91a4827d]{font-size:10px!important}.text-xs[data-v-91a4827d]{font-size:.75rem;line-height:1rem}.text-\\[var\\(--td-text-color-primary\\)\\][data-v-91a4827d]{color:var(--td-text-color-primary)}.text-zinc-400[data-v-91a4827d]{--un-text-opacity:1;color:rgb(161 161 170 / var(--un-text-opacity))}.text-zinc-500[data-v-91a4827d]{--un-text-opacity:1;color:rgb(113 113 122 / var(--un-text-opacity))}.font-bold[data-v-91a4827d]{font-weight:700}.font-mono[data-v-91a4827d]{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}[data-v-a89407b8] .t-button{margin-left:0!important;margin-right:0!important}[data-v-a89407b8] .t-button+.t-button{margin-left:0!important}.stat-card[data-v-a89407b8]{background:#f4f4f5b3;border:1px solid rgba(228,228,231,.8)}.stat-card[data-v-a89407b8]:hover{background:#fffffff2}.dark .stat-card{background:#18181b66;border:1px solid rgba(39,39,42,.8)}.dark .stat-card{background:#27272a99}.selected-tunnel-item[data-v-a89407b8]{background:var(--td-brand-color-light);border-color:var(--td-brand-color-focus)}.unselected-tunnel-item[data-v-a89407b8]{background:transparent;border-color:transparent}.unselected-tunnel-item[data-v-a89407b8]:hover{background:var(--td-bg-color-secondarycontainer);border-color:var(--td-component-border)}.list-item-anim[data-v-a89407b8]{animation:slideUp-a89407b8 .35s cubic-bezier(.2,.8,.2,1) backwards}@keyframes slideUp-a89407b8{0%{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}@keyframes smoothLoadingGlass-a89407b8{0%{backdrop-filter:blur(.01px);-webkit-backdrop-filter:blur(.01px)}to{backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)}}.custom-scrollbar[data-v-a89407b8]{scrollbar-width:thin;scrollbar-color:rgba(150,150,150,.3) transparent}.custom-scrollbar[data-v-a89407b8]::-webkit-scrollbar{width:6px;height:6px}.custom-scrollbar[data-v-a89407b8]::-webkit-scrollbar-thumb{background:#9696964d;border-radius:3px}.custom-scrollbar[data-v-a89407b8]::-webkit-scrollbar-track{background:transparent}[data-v-a89407b8] .t-loading__overlay{border-radius:1rem!important;background:#fff9!important;animation:smoothLoadingGlass-a89407b8 .3s cubic-bezier(.2,.8,.2,1) forwards!important}.dark .t-loading__overlay{background:#18181b99!important}.pointer-events-none[data-v-a89407b8]{pointer-events:none}.absolute[data-v-a89407b8]{position:absolute}.relative[data-v-a89407b8]{position:relative}.-bottom-10[data-v-a89407b8]{bottom:-2.5rem}.-left-10[data-v-a89407b8]{left:-2.5rem}.-right-20[data-v-a89407b8]{right:-5rem}.-top-20[data-v-a89407b8]{top:-5rem}.z-10[data-v-a89407b8]{z-index:10}.grid[data-v-a89407b8]{display:grid}.grid-cols-1[data-v-a89407b8]{grid-template-columns:repeat(1,minmax(0,1fr))}.grid-cols-2[data-v-a89407b8]{grid-template-columns:repeat(2,minmax(0,1fr))}.\\!m-0[data-v-a89407b8]{margin:0!important}.m-0[data-v-a89407b8]{margin:0}.mx-1[data-v-a89407b8]{margin-left:.25rem;margin-right:.25rem}.mx-auto[data-v-a89407b8]{margin-left:auto;margin-right:auto}.\\!mb-2[data-v-a89407b8]{margin-bottom:.5rem!important}.\\!mb-6[data-v-a89407b8]{margin-bottom:1.5rem!important}.\\!ml-0[data-v-a89407b8]{margin-left:0!important}.\\!ml-1[data-v-a89407b8]{margin-left:.25rem!important}.mb-1[data-v-a89407b8]{margin-bottom:.25rem}.mb-1\\.5[data-v-a89407b8]{margin-bottom:.375rem}.mb-2[data-v-a89407b8]{margin-bottom:.5rem}.mb-4[data-v-a89407b8]{margin-bottom:1rem}.mb-6[data-v-a89407b8]{margin-bottom:1.5rem}.mr-1[data-v-a89407b8]{margin-right:.25rem}.mr-3[data-v-a89407b8]{margin-right:.75rem}.mt-0\\.5[data-v-a89407b8]{margin-top:.125rem}.mt-1[data-v-a89407b8]{margin-top:.25rem}.mt-6[data-v-a89407b8]{margin-top:1.5rem}.mt-8[data-v-a89407b8]{margin-top:2rem}.block[data-v-a89407b8]{display:block}.\\!h-10[data-v-a89407b8]{height:2.5rem!important}.\\!h-12[data-v-a89407b8]{height:3rem!important}.\\!w-full[data-v-a89407b8]{width:100%!important}.h-\\[580px\\][data-v-a89407b8]{height:580px}.h-10[data-v-a89407b8]{height:2.5rem}.h-2[data-v-a89407b8]{height:.5rem}.h-20[data-v-a89407b8]{height:5rem}.h-4[data-v-a89407b8]{height:1rem}.h-40[data-v-a89407b8]{height:10rem}.h-60[data-v-a89407b8]{height:15rem}.h-full[data-v-a89407b8]{height:100%}.max-w-md[data-v-a89407b8]{max-width:28rem}.min-h-\\[70vh\\][data-v-a89407b8]{min-height:70vh}.min-w-0[data-v-a89407b8]{min-width:0}.w-10[data-v-a89407b8]{width:2.5rem}.w-2[data-v-a89407b8]{width:.5rem}.w-20[data-v-a89407b8]{width:5rem}.w-40[data-v-a89407b8]{width:10rem}.w-60[data-v-a89407b8]{width:15rem}.w-full[data-v-a89407b8]{width:100%}.w-max[data-v-a89407b8]{width:max-content}.w-px[data-v-a89407b8]{width:1px}.flex[data-v-a89407b8]{display:flex}.flex-1[data-v-a89407b8]{flex:1 1 0%}.shrink-0[data-v-a89407b8]{flex-shrink:0}.flex-col[data-v-a89407b8]{flex-direction:column}.transform[data-v-a89407b8]{transform:translate(var(--un-translate-x)) translateY(var(--un-translate-y)) translateZ(var(--un-translate-z)) rotate(var(--un-rotate)) rotateX(var(--un-rotate-x)) rotateY(var(--un-rotate-y)) rotate(var(--un-rotate-z)) skew(var(--un-skew-x)) skewY(var(--un-skew-y)) scaleX(var(--un-scale-x)) scaleY(var(--un-scale-y)) scaleZ(var(--un-scale-z))}@keyframes pulse-a89407b8{0%,to{opacity:1}50%{opacity:.5}}.animate-pulse[data-v-a89407b8]{animation:pulse-a89407b8 2s cubic-bezier(.4,0,.6,1) infinite}.cursor-pointer[data-v-a89407b8]{cursor:pointer}.items-start[data-v-a89407b8]{align-items:flex-start}.items-center[data-v-a89407b8]{align-items:center}.justify-center[data-v-a89407b8]{justify-content:center}.justify-between[data-v-a89407b8]{justify-content:space-between}.gap-1[data-v-a89407b8]{gap:.25rem}.gap-2[data-v-a89407b8]{gap:.5rem}.gap-3[data-v-a89407b8]{gap:.75rem}.gap-4[data-v-a89407b8]{gap:1rem}.gap-6[data-v-a89407b8]{gap:1.5rem}.space-y-3[data-v-a89407b8]>:not([hidden])~:not([hidden]){--un-space-y-reverse:0;margin-top:calc(.75rem * calc(1 - var(--un-space-y-reverse)));margin-bottom:calc(.75rem * var(--un-space-y-reverse))}.overflow-hidden[data-v-a89407b8]{overflow:hidden}.overflow-y-auto[data-v-a89407b8]{overflow-y:auto}.truncate[data-v-a89407b8]{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.border[data-v-a89407b8]{border-width:1px}.border-b[data-v-a89407b8]{border-bottom-width:1px}.border-t[data-v-a89407b8]{border-top-width:1px}.border-\\[var\\(--td-component-border\\)\\][data-v-a89407b8]{border-color:var(--td-component-border)}.border-\\[var\\(--td-success-color-focus\\,\\#9ae6b4\\)\\][data-v-a89407b8]{border-color:var(--td-success-color-focus,#9ae6b4)}.\\!rounded[data-v-a89407b8]{border-radius:.25rem!important}.\\!rounded-full[data-v-a89407b8]{border-radius:9999px!important}.\\!rounded-lg[data-v-a89407b8]{border-radius:.5rem!important}.\\!rounded-md[data-v-a89407b8]{border-radius:.375rem!important}.\\!rounded-xl[data-v-a89407b8]{border-radius:.75rem!important}.rounded[data-v-a89407b8]{border-radius:.25rem}.rounded-2xl[data-v-a89407b8]{border-radius:1rem}.rounded-3xl[data-v-a89407b8]{border-radius:1.5rem}.rounded-full[data-v-a89407b8]{border-radius:9999px}.rounded-lg[data-v-a89407b8]{border-radius:.5rem}.rounded-xl[data-v-a89407b8]{border-radius:.75rem}.border-dashed[data-v-a89407b8]{border-style:dashed}.bg-\\[var\\(--td-bg-color-container\\)\\][data-v-a89407b8]{background-color:var(--td-bg-color-container)}.bg-\\[var\\(--td-bg-color-secondarycontainer\\)\\][data-v-a89407b8]{background-color:var(--td-bg-color-secondarycontainer)}.bg-\\[var\\(--td-brand-color\\)\\][data-v-a89407b8]{background-color:var(--td-brand-color)}.bg-\\[var\\(--td-component-border\\)\\][data-v-a89407b8]{background-color:var(--td-component-border)}.bg-\\[var\\(--td-success-color-light\\,\\#e8f8f2\\)\\][data-v-a89407b8]{background-color:var(--td-success-color-light,#e8f8f2)}.bg-\\[var\\(--td-success-color\\,\\#2ba471\\)\\][data-v-a89407b8]{background-color:var(--td-success-color,#2ba471)}.dark .dark\\:bg-emerald-900[data-v-a89407b8]{--un-bg-opacity:1;background-color:rgb(6 78 59 / var(--un-bg-opacity))}.dark .dark\\:hover\\:\\!bg-red-900[data-v-a89407b8]:hover{--un-bg-opacity:1 !important;background-color:rgb(127 29 29 / var(--un-bg-opacity))!important}.dark .dark\\:hover\\:bg-zinc-800[data-v-a89407b8]:hover{--un-bg-opacity:1;background-color:rgb(39 39 42 / var(--un-bg-opacity))}.hover\\:\\!bg-red-50[data-v-a89407b8]:hover{--un-bg-opacity:1 !important;background-color:rgb(254 242 242 / var(--un-bg-opacity))!important}.hover\\:\\!bg-red-500[data-v-a89407b8]:hover{--un-bg-opacity:1 !important;background-color:rgb(239 68 68 / var(--un-bg-opacity))!important}.hover\\:bg-white[data-v-a89407b8]:hover{--un-bg-opacity:1;background-color:rgb(255 255 255 / var(--un-bg-opacity))}.object-contain[data-v-a89407b8]{object-fit:contain}.p-10[data-v-a89407b8]{padding:2.5rem}.p-3[data-v-a89407b8]{padding:.75rem}.p-4[data-v-a89407b8]{padding:1rem}.p-5[data-v-a89407b8]{padding:1.25rem}.p-6[data-v-a89407b8]{padding:1.5rem}.\\!px-1\\.5[data-v-a89407b8]{padding-left:.375rem!important;padding-right:.375rem!important}.\\!px-2[data-v-a89407b8]{padding-left:.5rem!important;padding-right:.5rem!important}.\\!px-3[data-v-a89407b8]{padding-left:.75rem!important;padding-right:.75rem!important}.px-2[data-v-a89407b8]{padding-left:.5rem;padding-right:.5rem}.py-0\\.5[data-v-a89407b8]{padding-top:.125rem;padding-bottom:.125rem}.pb-4[data-v-a89407b8]{padding-bottom:1rem}.pb-6[data-v-a89407b8]{padding-bottom:1.5rem}.pt-2[data-v-a89407b8]{padding-top:.5rem}.pt-4[data-v-a89407b8]{padding-top:1rem}.text-center[data-v-a89407b8]{text-align:center}.text-left[data-v-a89407b8]{text-align:left}.text-\\[11px\\][data-v-a89407b8]{font-size:11px}.text-2xl[data-v-a89407b8]{font-size:1.5rem;line-height:2rem}.text-base[data-v-a89407b8]{font-size:1rem;line-height:1.5rem}.text-lg[data-v-a89407b8]{font-size:1.125rem;line-height:1.75rem}.text-sm[data-v-a89407b8]{font-size:.875rem;line-height:1.25rem}.text-xl[data-v-a89407b8]{font-size:1.25rem;line-height:1.75rem}.text-xs[data-v-a89407b8]{font-size:.75rem;line-height:1rem}.\\!text-zinc-500[data-v-a89407b8]{--un-text-opacity:1 !important;color:rgb(113 113 122 / var(--un-text-opacity))!important}.dark .dark\\:text-zinc-300[data-v-a89407b8]{--un-text-opacity:1;color:rgb(212 212 216 / var(--un-text-opacity))}.text-\\[var\\(--td-brand-color\\)\\][data-v-a89407b8]{color:var(--td-brand-color)}.text-\\[var\\(--td-success-color\\,\\#2ba471\\)\\][data-v-a89407b8]{color:var(--td-success-color,#2ba471)}.text-\\[var\\(--td-text-color-primary\\)\\][data-v-a89407b8]{color:var(--td-text-color-primary)}.text-\\[var\\(--td-text-color-secondary\\)\\][data-v-a89407b8]{color:var(--td-text-color-secondary)}.text-\\[var\\(--td-warning-color\\,\\#ed7b2f\\)\\][data-v-a89407b8]{color:var(--td-warning-color,#ed7b2f)}.text-white[data-v-a89407b8]{--un-text-opacity:1;color:rgb(255 255 255 / var(--un-text-opacity))}.text-zinc-400[data-v-a89407b8]{--un-text-opacity:1;color:rgb(161 161 170 / var(--un-text-opacity))}.text-zinc-500[data-v-a89407b8]{--un-text-opacity:1;color:rgb(113 113 122 / var(--un-text-opacity))}.text-zinc-700[data-v-a89407b8]{--un-text-opacity:1;color:rgb(63 63 70 / var(--un-text-opacity))}.hover\\:\\!text-white[data-v-a89407b8]:hover{--un-text-opacity:1 !important;color:rgb(255 255 255 / var(--un-text-opacity))!important}.hover\\:text-\\[var\\(--td-brand-color\\)\\][data-v-a89407b8]:hover{color:var(--td-brand-color)}.\\!font-bold[data-v-a89407b8]{font-weight:700!important}.font-bold[data-v-a89407b8]{font-weight:700}.font-extrabold[data-v-a89407b8]{font-weight:800}.font-medium[data-v-a89407b8]{font-weight:500}.leading-none[data-v-a89407b8]{line-height:1}.leading-relaxed[data-v-a89407b8]{line-height:1.625}.tracking-tight[data-v-a89407b8]{letter-spacing:-.025em}.tracking-widest[data-v-a89407b8]{letter-spacing:.1em}.font-mono[data-v-a89407b8]{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}.font-sans[data-v-a89407b8]{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji"}.uppercase[data-v-a89407b8]{text-transform:uppercase}.opacity-50[data-v-a89407b8]{opacity:.5}.opacity-60[data-v-a89407b8]{opacity:.6}.shadow-\\[var\\(--td-brand-color-light\\)\\][data-v-a89407b8]{--un-shadow:var(--td-brand-color-light);box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.shadow-md[data-v-a89407b8]{--un-shadow:var(--un-shadow-inset) 0 4px 6px -1px var(--un-shadow-color, rgb(0 0 0 / .1)),var(--un-shadow-inset) 0 2px 4px -2px var(--un-shadow-color, rgb(0 0 0 / .1));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.shadow-sm[data-v-a89407b8]{--un-shadow:var(--un-shadow-inset) 0 1px 2px 0 var(--un-shadow-color, rgb(0 0 0 / .05));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.shadow-xl[data-v-a89407b8]{--un-shadow:var(--un-shadow-inset) 0 20px 25px -5px var(--un-shadow-color, rgb(0 0 0 / .1)),var(--un-shadow-inset) 0 8px 10px -6px var(--un-shadow-color, rgb(0 0 0 / .1));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.hover\\:shadow-lg[data-v-a89407b8]:hover{--un-shadow:var(--un-shadow-inset) 0 10px 15px -3px var(--un-shadow-color, rgb(0 0 0 / .1)),var(--un-shadow-inset) 0 4px 6px -4px var(--un-shadow-color, rgb(0 0 0 / .1));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.light .light-outline[data-v-a89407b8],.outline[data-v-a89407b8]{outline-style:solid}.blur-3xl[data-v-a89407b8]{--un-blur:blur(64px);filter:var(--un-blur) var(--un-brightness) var(--un-contrast) var(--un-drop-shadow) var(--un-grayscale) var(--un-hue-rotate) var(--un-invert) var(--un-saturate) var(--un-sepia)}.backdrop-filter[data-v-a89407b8]{-webkit-backdrop-filter:var(--un-backdrop-blur) var(--un-backdrop-brightness) var(--un-backdrop-contrast) var(--un-backdrop-grayscale) var(--un-backdrop-hue-rotate) var(--un-backdrop-invert) var(--un-backdrop-opacity) var(--un-backdrop-saturate) var(--un-backdrop-sepia);backdrop-filter:var(--un-backdrop-blur) var(--un-backdrop-brightness) var(--un-backdrop-contrast) var(--un-backdrop-grayscale) var(--un-backdrop-hue-rotate) var(--un-backdrop-invert) var(--un-backdrop-opacity) var(--un-backdrop-saturate) var(--un-backdrop-sepia)}.transition-all[data-v-a89407b8]{transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-colors[data-v-a89407b8]{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.duration-200[data-v-a89407b8]{transition-duration:.2s}@media(min-width:640px){.sm\\:grid-cols-2[data-v-a89407b8]{grid-template-columns:repeat(2,minmax(0,1fr))}.sm\\:flex-row[data-v-a89407b8]{flex-direction:row}.sm\\:items-center[data-v-a89407b8]{align-items:center}.sm\\:p-5[data-v-a89407b8]{padding:1.25rem}.sm\\:p-6[data-v-a89407b8]{padding:1.5rem}}@media(min-width:1024px){.lg\\:col-span-5[data-v-a89407b8]{grid-column:span 5/span 5}.lg\\:col-span-7[data-v-a89407b8]{grid-column:span 7/span 7}.lg\\:grid-cols-12[data-v-a89407b8]{grid-template-columns:repeat(12,minmax(0,1fr))}.lg\\:grid-cols-2[data-v-a89407b8]{grid-template-columns:repeat(2,minmax(0,1fr))}.lg\\:grid-cols-4[data-v-a89407b8]{grid-template-columns:repeat(4,minmax(0,1fr))}}@media(min-width:1280px){.xl\\:col-span-4[data-v-a89407b8]{grid-column:span 4/span 4}.xl\\:col-span-8[data-v-a89407b8]{grid-column:span 8/span 8}}')),document.head.appendChild(a)}}catch(t){console.error("vite-plugin-css-injected-by-js",t)}})();
-function Be(t) {
+function Ie(t) {
   return t && t.__esModule && Object.prototype.hasOwnProperty.call(t, "default") ? t.default : t;
 }
-var ee, ne;
-function Ie() {
-  return ne || (ne = 1, ee = Vue), ee;
+var te, ie;
+function We() {
+  return ie || (ie = 1, te = Vue), te;
 }
-var e = Ie();
+var e = We();
 function R(t) {
   "@babel/helpers - typeof";
-  return R = typeof Symbol == "function" && typeof Symbol.iterator == "symbol" ? function(r) {
-    return typeof r;
-  } : function(r) {
-    return r && typeof Symbol == "function" && r.constructor === Symbol && r !== Symbol.prototype ? "symbol" : typeof r;
+  return R = typeof Symbol == "function" && typeof Symbol.iterator == "symbol" ? function(o) {
+    return typeof o;
+  } : function(o) {
+    return o && typeof Symbol == "function" && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o;
   }, R(t);
 }
-function We(t, r) {
+function Re(t, o) {
   if (R(t) != "object" || !t) return t;
-  var o = t[Symbol.toPrimitive];
-  if (o !== void 0) {
-    var l = o.call(t, r);
+  var r = t[Symbol.toPrimitive];
+  if (r !== void 0) {
+    var l = r.call(t, o);
     if (R(l) != "object") return l;
     throw new TypeError("@@toPrimitive must return a primitive value.");
   }
-  return (r === "string" ? String : Number)(t);
+  return (o === "string" ? String : Number)(t);
 }
-function Re(t) {
-  var r = We(t, "string");
-  return R(r) == "symbol" ? r : r + "";
+function Ue(t) {
+  var o = Re(t, "string");
+  return R(o) == "symbol" ? o : o + "";
 }
-function A(t, r, o) {
-  return (r = Re(r)) in t ? Object.defineProperty(t, r, {
-    value: o,
+function A(t, o, r) {
+  return (o = Ue(o)) in t ? Object.defineProperty(t, o, {
+    value: r,
     enumerable: !0,
     configurable: !0,
     writable: !0
-  }) : t[r] = o, t;
+  }) : t[o] = r, t;
 }
-var ie = (t) => {
-  var r = ["strokeLinecap", "fillRule", "clipRule", "strokeWidth"];
-  return r.includes(t) ? t.replace(/([a-z0-9]|(?=[A-Z]))([A-Z])/g, "$1-$2").toLowerCase() : t;
-}, P = (t, r) => {
-  var o = {};
+var se = (t) => {
+  var o = ["strokeLinecap", "fillRule", "clipRule", "strokeWidth"];
+  return o.includes(t) ? t.replace(/([a-z0-9]|(?=[A-Z]))([A-Z])/g, "$1-$2").toLowerCase() : t;
+}, O = (t, o) => {
+  var r = {};
   if (t.attrs)
     for (var [l, i] of Object.entries(t.attrs))
       if (typeof i == "string" && i.startsWith("props.")) {
-        var c = i.split(".")[1];
-        o[ie(l)] = r[c];
+        var s = i.split(".")[1];
+        r[se(l)] = o[s];
       } else
-        o[ie(l)] = i;
-  t.tag === "svg" && (o.class = r.class, o.style = r.style, o.onClick = r.onClick);
-  var f = t.children ? t.children.map((n) => P(n, r)) : [];
-  return e.h(t.tag, o, f);
-}, Ue = "t", Fe = {
-  classPrefix: Ue
+        r[se(l)] = i;
+  t.tag === "svg" && (r.class = o.class, r.style = o.style, r.onClick = o.onClick);
+  var m = t.children ? t.children.map((n) => O(n, o)) : [];
+  return e.h(t.tag, r, m);
+}, Fe = "t", He = {
+  classPrefix: Fe
 };
-function He() {
+function qe() {
   var {
     classPrefix: t
-  } = Fe;
+  } = He;
   return {
     SIZE: {
       default: "",
@@ -88,31 +88,31 @@ function He() {
   };
 }
 function j(t) {
-  var r = He().SIZE, o = e.computed(() => t.value in r ? r[t.value] : ""), l = e.computed(() => t.value === void 0 || t.value in r ? {} : {
+  var o = qe().SIZE, r = e.computed(() => t.value in o ? o[t.value] : ""), l = e.computed(() => t.value === void 0 || t.value in o ? {} : {
     fontSize: t.value
   });
   return {
     style: l,
-    className: o
+    className: r
   };
 }
-function se(t, r) {
-  var o = Object.keys(t);
+function ce(t, o) {
+  var r = Object.keys(t);
   if (Object.getOwnPropertySymbols) {
     var l = Object.getOwnPropertySymbols(t);
-    r && (l = l.filter(function(i) {
+    o && (l = l.filter(function(i) {
       return Object.getOwnPropertyDescriptor(t, i).enumerable;
-    })), o.push.apply(o, l);
+    })), r.push.apply(r, l);
   }
-  return o;
+  return r;
 }
-function ce(t) {
-  for (var r = 1; r < arguments.length; r++) {
-    var o = arguments[r] != null ? arguments[r] : {};
-    r % 2 ? se(Object(o), !0).forEach(function(l) {
-      A(t, l, o[l]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : se(Object(o)).forEach(function(l) {
-      Object.defineProperty(t, l, Object.getOwnPropertyDescriptor(o, l));
+function de(t) {
+  for (var o = 1; o < arguments.length; o++) {
+    var r = arguments[o] != null ? arguments[o] : {};
+    o % 2 ? ce(Object(r), !0).forEach(function(l) {
+      A(t, l, r[l]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(r)) : ce(Object(r)).forEach(function(l) {
+      Object.defineProperty(t, l, Object.getOwnPropertyDescriptor(r, l));
     });
   }
   return t;
@@ -141,7 +141,7 @@ var Ze = {
       }
     }]
   }]
-}, qe = e.defineComponent({
+}, Ke = e.defineComponent({
   name: "AddIcon",
   props: {
     size: {
@@ -160,61 +160,61 @@ var Ze = {
       type: Number
     }
   },
-  setup(t, r) {
+  setup(t, o) {
     var {
-      attrs: o
-    } = r, l = e.computed(() => t.size), i = e.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), c = e.computed(() => {
+      attrs: r
+    } = o, l = e.computed(() => t.size), i = e.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = e.computed(() => {
       var a;
       return t.strokeColor ? Array.isArray(t.strokeColor) ? (a = t.strokeColor[1]) !== null && a !== void 0 ? a : t.strokeColor[0] : t.strokeColor : "currentColor";
-    }), f = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), n = e.computed(() => {
+    }), m = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), n = e.computed(() => {
       var a;
       return t.fillColor ? Array.isArray(t.fillColor) ? (a = t.fillColor[1]) !== null && a !== void 0 ? a : t.fillColor[0] : t.fillColor : "transparent";
-    }), g = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
+    }), u = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
       className: y,
-      style: m
-    } = j(l), C = e.computed(() => ["t-icon", "t-icon-add", y.value]), b = e.computed(() => ce(ce({
+      style: v
+    } = j(l), g = e.computed(() => ["t-icon", "t-icon-add", y.value]), b = e.computed(() => de(de({
       fill: "none"
-    }, m.value), o.style)), v = e.computed(() => ({
-      class: C.value,
+    }, v.value), r.style)), p = e.computed(() => ({
+      class: g.value,
       style: b.value,
       onClick: (a) => {
-        var u;
-        return (u = t.onClick) === null || u === void 0 ? void 0 : u.call(t, {
+        var f;
+        return (f = t.onClick) === null || f === void 0 ? void 0 : f.call(t, {
           e: a
         });
       },
       strokeColor1: i.value,
-      strokeColor2: c.value,
-      fillColor1: f.value,
+      strokeColor2: s.value,
+      fillColor1: m.value,
       fillColor2: n.value,
       strokeWidth: t.strokeWidth || 2,
-      filledColor: g.value
+      filledColor: u.value
     }));
-    return () => P(Ze, v.value);
+    return () => O(Ze, p.value);
   }
 });
-function de(t, r) {
-  var o = Object.keys(t);
+function ue(t, o) {
+  var r = Object.keys(t);
   if (Object.getOwnPropertySymbols) {
     var l = Object.getOwnPropertySymbols(t);
-    r && (l = l.filter(function(i) {
+    o && (l = l.filter(function(i) {
       return Object.getOwnPropertyDescriptor(t, i).enumerable;
-    })), o.push.apply(o, l);
+    })), r.push.apply(r, l);
   }
-  return o;
+  return r;
 }
-function ue(t) {
-  for (var r = 1; r < arguments.length; r++) {
-    var o = arguments[r] != null ? arguments[r] : {};
-    r % 2 ? de(Object(o), !0).forEach(function(l) {
-      A(t, l, o[l]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : de(Object(o)).forEach(function(l) {
-      Object.defineProperty(t, l, Object.getOwnPropertyDescriptor(o, l));
+function fe(t) {
+  for (var o = 1; o < arguments.length; o++) {
+    var r = arguments[o] != null ? arguments[o] : {};
+    o % 2 ? ue(Object(r), !0).forEach(function(l) {
+      A(t, l, r[l]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(r)) : ue(Object(r)).forEach(function(l) {
+      Object.defineProperty(t, l, Object.getOwnPropertyDescriptor(r, l));
     });
   }
   return t;
 }
-var Ke = {
+var Xe = {
   tag: "svg",
   attrs: {
     fill: "none",
@@ -263,61 +263,61 @@ var Ke = {
       type: Number
     }
   },
-  setup(t, r) {
+  setup(t, o) {
     var {
-      attrs: o
-    } = r, l = e.computed(() => t.size), i = e.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), c = e.computed(() => {
+      attrs: r
+    } = o, l = e.computed(() => t.size), i = e.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = e.computed(() => {
       var a;
       return t.strokeColor ? Array.isArray(t.strokeColor) ? (a = t.strokeColor[1]) !== null && a !== void 0 ? a : t.strokeColor[0] : t.strokeColor : "currentColor";
-    }), f = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), n = e.computed(() => {
+    }), m = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), n = e.computed(() => {
       var a;
       return t.fillColor ? Array.isArray(t.fillColor) ? (a = t.fillColor[1]) !== null && a !== void 0 ? a : t.fillColor[0] : t.fillColor : "transparent";
-    }), g = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
+    }), u = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
       className: y,
-      style: m
-    } = j(l), C = e.computed(() => ["t-icon", "t-icon-cloud", y.value]), b = e.computed(() => ue(ue({
+      style: v
+    } = j(l), g = e.computed(() => ["t-icon", "t-icon-cloud", y.value]), b = e.computed(() => fe(fe({
       fill: "none"
-    }, m.value), o.style)), v = e.computed(() => ({
-      class: C.value,
+    }, v.value), r.style)), p = e.computed(() => ({
+      class: g.value,
       style: b.value,
       onClick: (a) => {
-        var u;
-        return (u = t.onClick) === null || u === void 0 ? void 0 : u.call(t, {
+        var f;
+        return (f = t.onClick) === null || f === void 0 ? void 0 : f.call(t, {
           e: a
         });
       },
       strokeColor1: i.value,
-      strokeColor2: c.value,
-      fillColor1: f.value,
+      strokeColor2: s.value,
+      fillColor1: m.value,
       fillColor2: n.value,
       strokeWidth: t.strokeWidth || 2,
-      filledColor: g.value
+      filledColor: u.value
     }));
-    return () => P(Ke, v.value);
+    return () => O(Xe, p.value);
   }
 });
-function fe(t, r) {
-  var o = Object.keys(t);
+function me(t, o) {
+  var r = Object.keys(t);
   if (Object.getOwnPropertySymbols) {
     var l = Object.getOwnPropertySymbols(t);
-    r && (l = l.filter(function(i) {
+    o && (l = l.filter(function(i) {
       return Object.getOwnPropertyDescriptor(t, i).enumerable;
-    })), o.push.apply(o, l);
+    })), r.push.apply(r, l);
   }
-  return o;
+  return r;
 }
-function me(t) {
-  for (var r = 1; r < arguments.length; r++) {
-    var o = arguments[r] != null ? arguments[r] : {};
-    r % 2 ? fe(Object(o), !0).forEach(function(l) {
-      A(t, l, o[l]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : fe(Object(o)).forEach(function(l) {
-      Object.defineProperty(t, l, Object.getOwnPropertyDescriptor(o, l));
+function ve(t) {
+  for (var o = 1; o < arguments.length; o++) {
+    var r = arguments[o] != null ? arguments[o] : {};
+    o % 2 ? me(Object(r), !0).forEach(function(l) {
+      A(t, l, r[l]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(r)) : me(Object(r)).forEach(function(l) {
+      Object.defineProperty(t, l, Object.getOwnPropertyDescriptor(r, l));
     });
   }
   return t;
 }
-var Xe = {
+var Ge = {
   tag: "svg",
   attrs: {
     fill: "none",
@@ -376,61 +376,61 @@ var Xe = {
       type: Number
     }
   },
-  setup(t, r) {
+  setup(t, o) {
     var {
-      attrs: o
-    } = r, l = e.computed(() => t.size), i = e.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), c = e.computed(() => {
+      attrs: r
+    } = o, l = e.computed(() => t.size), i = e.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = e.computed(() => {
       var a;
       return t.strokeColor ? Array.isArray(t.strokeColor) ? (a = t.strokeColor[1]) !== null && a !== void 0 ? a : t.strokeColor[0] : t.strokeColor : "currentColor";
-    }), f = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), n = e.computed(() => {
+    }), m = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), n = e.computed(() => {
       var a;
       return t.fillColor ? Array.isArray(t.fillColor) ? (a = t.fillColor[1]) !== null && a !== void 0 ? a : t.fillColor[0] : t.fillColor : "transparent";
-    }), g = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
+    }), u = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
       className: y,
-      style: m
-    } = j(l), C = e.computed(() => ["t-icon", "t-icon-delete", y.value]), b = e.computed(() => me(me({
+      style: v
+    } = j(l), g = e.computed(() => ["t-icon", "t-icon-delete", y.value]), b = e.computed(() => ve(ve({
       fill: "none"
-    }, m.value), o.style)), v = e.computed(() => ({
-      class: C.value,
+    }, v.value), r.style)), p = e.computed(() => ({
+      class: g.value,
       style: b.value,
       onClick: (a) => {
-        var u;
-        return (u = t.onClick) === null || u === void 0 ? void 0 : u.call(t, {
+        var f;
+        return (f = t.onClick) === null || f === void 0 ? void 0 : f.call(t, {
           e: a
         });
       },
       strokeColor1: i.value,
-      strokeColor2: c.value,
-      fillColor1: f.value,
+      strokeColor2: s.value,
+      fillColor1: m.value,
       fillColor2: n.value,
       strokeWidth: t.strokeWidth || 2,
-      filledColor: g.value
+      filledColor: u.value
     }));
-    return () => P(Xe, v.value);
+    return () => O(Ge, p.value);
   }
 });
-function ve(t, r) {
-  var o = Object.keys(t);
+function pe(t, o) {
+  var r = Object.keys(t);
   if (Object.getOwnPropertySymbols) {
     var l = Object.getOwnPropertySymbols(t);
-    r && (l = l.filter(function(i) {
+    o && (l = l.filter(function(i) {
       return Object.getOwnPropertyDescriptor(t, i).enumerable;
-    })), o.push.apply(o, l);
+    })), r.push.apply(r, l);
   }
-  return o;
+  return r;
 }
-function pe(t) {
-  for (var r = 1; r < arguments.length; r++) {
-    var o = arguments[r] != null ? arguments[r] : {};
-    r % 2 ? ve(Object(o), !0).forEach(function(l) {
-      A(t, l, o[l]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : ve(Object(o)).forEach(function(l) {
-      Object.defineProperty(t, l, Object.getOwnPropertyDescriptor(o, l));
+function Ce(t) {
+  for (var o = 1; o < arguments.length; o++) {
+    var r = arguments[o] != null ? arguments[o] : {};
+    o % 2 ? pe(Object(r), !0).forEach(function(l) {
+      A(t, l, r[l]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(r)) : pe(Object(r)).forEach(function(l) {
+      Object.defineProperty(t, l, Object.getOwnPropertyDescriptor(r, l));
     });
   }
   return t;
 }
-var Ge = {
+var Qe = {
   tag: "svg",
   attrs: {
     fill: "none",
@@ -454,7 +454,7 @@ var Ge = {
       }
     }]
   }]
-}, Qe = e.defineComponent({
+}, et = e.defineComponent({
   name: "LinkIcon",
   props: {
     size: {
@@ -473,61 +473,61 @@ var Ge = {
       type: Number
     }
   },
-  setup(t, r) {
+  setup(t, o) {
     var {
-      attrs: o
-    } = r, l = e.computed(() => t.size), i = e.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), c = e.computed(() => {
+      attrs: r
+    } = o, l = e.computed(() => t.size), i = e.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = e.computed(() => {
       var a;
       return t.strokeColor ? Array.isArray(t.strokeColor) ? (a = t.strokeColor[1]) !== null && a !== void 0 ? a : t.strokeColor[0] : t.strokeColor : "currentColor";
-    }), f = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), n = e.computed(() => {
+    }), m = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), n = e.computed(() => {
       var a;
       return t.fillColor ? Array.isArray(t.fillColor) ? (a = t.fillColor[1]) !== null && a !== void 0 ? a : t.fillColor[0] : t.fillColor : "transparent";
-    }), g = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
+    }), u = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
       className: y,
-      style: m
-    } = j(l), C = e.computed(() => ["t-icon", "t-icon-link", y.value]), b = e.computed(() => pe(pe({
+      style: v
+    } = j(l), g = e.computed(() => ["t-icon", "t-icon-link", y.value]), b = e.computed(() => Ce(Ce({
       fill: "none"
-    }, m.value), o.style)), v = e.computed(() => ({
-      class: C.value,
+    }, v.value), r.style)), p = e.computed(() => ({
+      class: g.value,
       style: b.value,
       onClick: (a) => {
-        var u;
-        return (u = t.onClick) === null || u === void 0 ? void 0 : u.call(t, {
+        var f;
+        return (f = t.onClick) === null || f === void 0 ? void 0 : f.call(t, {
           e: a
         });
       },
       strokeColor1: i.value,
-      strokeColor2: c.value,
-      fillColor1: f.value,
+      strokeColor2: s.value,
+      fillColor1: m.value,
       fillColor2: n.value,
       strokeWidth: t.strokeWidth || 2,
-      filledColor: g.value
+      filledColor: u.value
     }));
-    return () => P(Ge, v.value);
+    return () => O(Qe, p.value);
   }
 });
-function Ce(t, r) {
-  var o = Object.keys(t);
+function ge(t, o) {
+  var r = Object.keys(t);
   if (Object.getOwnPropertySymbols) {
     var l = Object.getOwnPropertySymbols(t);
-    r && (l = l.filter(function(i) {
+    o && (l = l.filter(function(i) {
       return Object.getOwnPropertyDescriptor(t, i).enumerable;
-    })), o.push.apply(o, l);
+    })), r.push.apply(r, l);
   }
-  return o;
+  return r;
 }
-function ge(t) {
-  for (var r = 1; r < arguments.length; r++) {
-    var o = arguments[r] != null ? arguments[r] : {};
-    r % 2 ? Ce(Object(o), !0).forEach(function(l) {
-      A(t, l, o[l]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : Ce(Object(o)).forEach(function(l) {
-      Object.defineProperty(t, l, Object.getOwnPropertyDescriptor(o, l));
+function ye(t) {
+  for (var o = 1; o < arguments.length; o++) {
+    var r = arguments[o] != null ? arguments[o] : {};
+    o % 2 ? ge(Object(r), !0).forEach(function(l) {
+      A(t, l, r[l]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(r)) : ge(Object(r)).forEach(function(l) {
+      Object.defineProperty(t, l, Object.getOwnPropertyDescriptor(r, l));
     });
   }
   return t;
 }
-var et = {
+var tt = {
   tag: "svg",
   attrs: {
     fill: "none",
@@ -554,7 +554,7 @@ var et = {
       }
     }]
   }]
-}, tt = e.defineComponent({
+}, rt = e.defineComponent({
   name: "PlayCircleIcon",
   props: {
     size: {
@@ -573,61 +573,61 @@ var et = {
       type: Number
     }
   },
-  setup(t, r) {
+  setup(t, o) {
     var {
-      attrs: o
-    } = r, l = e.computed(() => t.size), i = e.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), c = e.computed(() => {
+      attrs: r
+    } = o, l = e.computed(() => t.size), i = e.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = e.computed(() => {
       var a;
       return t.strokeColor ? Array.isArray(t.strokeColor) ? (a = t.strokeColor[1]) !== null && a !== void 0 ? a : t.strokeColor[0] : t.strokeColor : "currentColor";
-    }), f = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), n = e.computed(() => {
+    }), m = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), n = e.computed(() => {
       var a;
       return t.fillColor ? Array.isArray(t.fillColor) ? (a = t.fillColor[1]) !== null && a !== void 0 ? a : t.fillColor[0] : t.fillColor : "transparent";
-    }), g = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
+    }), u = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
       className: y,
-      style: m
-    } = j(l), C = e.computed(() => ["t-icon", "t-icon-play-circle", y.value]), b = e.computed(() => ge(ge({
+      style: v
+    } = j(l), g = e.computed(() => ["t-icon", "t-icon-play-circle", y.value]), b = e.computed(() => ye(ye({
       fill: "none"
-    }, m.value), o.style)), v = e.computed(() => ({
-      class: C.value,
+    }, v.value), r.style)), p = e.computed(() => ({
+      class: g.value,
       style: b.value,
       onClick: (a) => {
-        var u;
-        return (u = t.onClick) === null || u === void 0 ? void 0 : u.call(t, {
+        var f;
+        return (f = t.onClick) === null || f === void 0 ? void 0 : f.call(t, {
           e: a
         });
       },
       strokeColor1: i.value,
-      strokeColor2: c.value,
-      fillColor1: f.value,
+      strokeColor2: s.value,
+      fillColor1: m.value,
       fillColor2: n.value,
       strokeWidth: t.strokeWidth || 2,
-      filledColor: g.value
+      filledColor: u.value
     }));
-    return () => P(et, v.value);
+    return () => O(tt, p.value);
   }
 });
-function ye(t, r) {
-  var o = Object.keys(t);
+function he(t, o) {
+  var r = Object.keys(t);
   if (Object.getOwnPropertySymbols) {
     var l = Object.getOwnPropertySymbols(t);
-    r && (l = l.filter(function(i) {
+    o && (l = l.filter(function(i) {
       return Object.getOwnPropertyDescriptor(t, i).enumerable;
-    })), o.push.apply(o, l);
+    })), r.push.apply(r, l);
   }
-  return o;
+  return r;
 }
-function he(t) {
-  for (var r = 1; r < arguments.length; r++) {
-    var o = arguments[r] != null ? arguments[r] : {};
-    r % 2 ? ye(Object(o), !0).forEach(function(l) {
-      A(t, l, o[l]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : ye(Object(o)).forEach(function(l) {
-      Object.defineProperty(t, l, Object.getOwnPropertyDescriptor(o, l));
+function ke(t) {
+  for (var o = 1; o < arguments.length; o++) {
+    var r = arguments[o] != null ? arguments[o] : {};
+    o % 2 ? he(Object(r), !0).forEach(function(l) {
+      A(t, l, r[l]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(r)) : he(Object(r)).forEach(function(l) {
+      Object.defineProperty(t, l, Object.getOwnPropertyDescriptor(r, l));
     });
   }
   return t;
 }
-var rt = {
+var ot = {
   tag: "svg",
   attrs: {
     fill: "none",
@@ -651,7 +651,7 @@ var rt = {
       }
     }]
   }]
-}, ot = e.defineComponent({
+}, lt = e.defineComponent({
   name: "RefreshIcon",
   props: {
     size: {
@@ -670,61 +670,61 @@ var rt = {
       type: Number
     }
   },
-  setup(t, r) {
+  setup(t, o) {
     var {
-      attrs: o
-    } = r, l = e.computed(() => t.size), i = e.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), c = e.computed(() => {
+      attrs: r
+    } = o, l = e.computed(() => t.size), i = e.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = e.computed(() => {
       var a;
       return t.strokeColor ? Array.isArray(t.strokeColor) ? (a = t.strokeColor[1]) !== null && a !== void 0 ? a : t.strokeColor[0] : t.strokeColor : "currentColor";
-    }), f = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), n = e.computed(() => {
+    }), m = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), n = e.computed(() => {
       var a;
       return t.fillColor ? Array.isArray(t.fillColor) ? (a = t.fillColor[1]) !== null && a !== void 0 ? a : t.fillColor[0] : t.fillColor : "transparent";
-    }), g = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
+    }), u = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
       className: y,
-      style: m
-    } = j(l), C = e.computed(() => ["t-icon", "t-icon-refresh", y.value]), b = e.computed(() => he(he({
+      style: v
+    } = j(l), g = e.computed(() => ["t-icon", "t-icon-refresh", y.value]), b = e.computed(() => ke(ke({
       fill: "none"
-    }, m.value), o.style)), v = e.computed(() => ({
-      class: C.value,
+    }, v.value), r.style)), p = e.computed(() => ({
+      class: g.value,
       style: b.value,
       onClick: (a) => {
-        var u;
-        return (u = t.onClick) === null || u === void 0 ? void 0 : u.call(t, {
+        var f;
+        return (f = t.onClick) === null || f === void 0 ? void 0 : f.call(t, {
           e: a
         });
       },
       strokeColor1: i.value,
-      strokeColor2: c.value,
-      fillColor1: f.value,
+      strokeColor2: s.value,
+      fillColor1: m.value,
       fillColor2: n.value,
       strokeWidth: t.strokeWidth || 2,
-      filledColor: g.value
+      filledColor: u.value
     }));
-    return () => P(rt, v.value);
+    return () => O(ot, p.value);
   }
 });
-function ke(t, r) {
-  var o = Object.keys(t);
+function be(t, o) {
+  var r = Object.keys(t);
   if (Object.getOwnPropertySymbols) {
     var l = Object.getOwnPropertySymbols(t);
-    r && (l = l.filter(function(i) {
+    o && (l = l.filter(function(i) {
       return Object.getOwnPropertyDescriptor(t, i).enumerable;
-    })), o.push.apply(o, l);
+    })), r.push.apply(r, l);
   }
-  return o;
+  return r;
 }
-function be(t) {
-  for (var r = 1; r < arguments.length; r++) {
-    var o = arguments[r] != null ? arguments[r] : {};
-    r % 2 ? ke(Object(o), !0).forEach(function(l) {
-      A(t, l, o[l]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : ke(Object(o)).forEach(function(l) {
-      Object.defineProperty(t, l, Object.getOwnPropertyDescriptor(o, l));
+function xe(t) {
+  for (var o = 1; o < arguments.length; o++) {
+    var r = arguments[o] != null ? arguments[o] : {};
+    o % 2 ? be(Object(r), !0).forEach(function(l) {
+      A(t, l, r[l]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(r)) : be(Object(r)).forEach(function(l) {
+      Object.defineProperty(t, l, Object.getOwnPropertyDescriptor(r, l));
     });
   }
   return t;
 }
-var lt = {
+var at = {
   tag: "svg",
   attrs: {
     fill: "none",
@@ -795,7 +795,7 @@ var lt = {
       }]
     }]
   }]
-}, xe = e.defineComponent({
+}, we = e.defineComponent({
   name: "ServerIcon",
   props: {
     size: {
@@ -814,61 +814,61 @@ var lt = {
       type: Number
     }
   },
-  setup(t, r) {
+  setup(t, o) {
     var {
-      attrs: o
-    } = r, l = e.computed(() => t.size), i = e.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), c = e.computed(() => {
+      attrs: r
+    } = o, l = e.computed(() => t.size), i = e.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = e.computed(() => {
       var a;
       return t.strokeColor ? Array.isArray(t.strokeColor) ? (a = t.strokeColor[1]) !== null && a !== void 0 ? a : t.strokeColor[0] : t.strokeColor : "currentColor";
-    }), f = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), n = e.computed(() => {
+    }), m = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), n = e.computed(() => {
       var a;
       return t.fillColor ? Array.isArray(t.fillColor) ? (a = t.fillColor[1]) !== null && a !== void 0 ? a : t.fillColor[0] : t.fillColor : "transparent";
-    }), g = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
+    }), u = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
       className: y,
-      style: m
-    } = j(l), C = e.computed(() => ["t-icon", "t-icon-server", y.value]), b = e.computed(() => be(be({
+      style: v
+    } = j(l), g = e.computed(() => ["t-icon", "t-icon-server", y.value]), b = e.computed(() => xe(xe({
       fill: "none"
-    }, m.value), o.style)), v = e.computed(() => ({
-      class: C.value,
+    }, v.value), r.style)), p = e.computed(() => ({
+      class: g.value,
       style: b.value,
       onClick: (a) => {
-        var u;
-        return (u = t.onClick) === null || u === void 0 ? void 0 : u.call(t, {
+        var f;
+        return (f = t.onClick) === null || f === void 0 ? void 0 : f.call(t, {
           e: a
         });
       },
       strokeColor1: i.value,
-      strokeColor2: c.value,
-      fillColor1: f.value,
+      strokeColor2: s.value,
+      fillColor1: m.value,
       fillColor2: n.value,
       strokeWidth: t.strokeWidth || 2,
-      filledColor: g.value
+      filledColor: u.value
     }));
-    return () => P(lt, v.value);
+    return () => O(at, p.value);
   }
 });
-function we(t, r) {
-  var o = Object.keys(t);
+function _e(t, o) {
+  var r = Object.keys(t);
   if (Object.getOwnPropertySymbols) {
     var l = Object.getOwnPropertySymbols(t);
-    r && (l = l.filter(function(i) {
+    o && (l = l.filter(function(i) {
       return Object.getOwnPropertyDescriptor(t, i).enumerable;
-    })), o.push.apply(o, l);
+    })), r.push.apply(r, l);
   }
-  return o;
+  return r;
 }
-function _e(t) {
-  for (var r = 1; r < arguments.length; r++) {
-    var o = arguments[r] != null ? arguments[r] : {};
-    r % 2 ? we(Object(o), !0).forEach(function(l) {
-      A(t, l, o[l]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : we(Object(o)).forEach(function(l) {
-      Object.defineProperty(t, l, Object.getOwnPropertyDescriptor(o, l));
+function Ve(t) {
+  for (var o = 1; o < arguments.length; o++) {
+    var r = arguments[o] != null ? arguments[o] : {};
+    o % 2 ? _e(Object(r), !0).forEach(function(l) {
+      A(t, l, r[l]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(r)) : _e(Object(r)).forEach(function(l) {
+      Object.defineProperty(t, l, Object.getOwnPropertyDescriptor(r, l));
     });
   }
   return t;
 }
-var at = {
+var nt = {
   tag: "svg",
   attrs: {
     fill: "none",
@@ -943,7 +943,7 @@ var at = {
       }
     }]
   }]
-}, nt = e.defineComponent({
+}, it = e.defineComponent({
   name: "UserCircleIcon",
   props: {
     size: {
@@ -962,85 +962,85 @@ var at = {
       type: Number
     }
   },
-  setup(t, r) {
+  setup(t, o) {
     var {
-      attrs: o
-    } = r, l = e.computed(() => t.size), i = e.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), c = e.computed(() => {
+      attrs: r
+    } = o, l = e.computed(() => t.size), i = e.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = e.computed(() => {
       var a;
       return t.strokeColor ? Array.isArray(t.strokeColor) ? (a = t.strokeColor[1]) !== null && a !== void 0 ? a : t.strokeColor[0] : t.strokeColor : "currentColor";
-    }), f = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), n = e.computed(() => {
+    }), m = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), n = e.computed(() => {
       var a;
       return t.fillColor ? Array.isArray(t.fillColor) ? (a = t.fillColor[1]) !== null && a !== void 0 ? a : t.fillColor[0] : t.fillColor : "transparent";
-    }), g = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
+    }), u = e.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
       className: y,
-      style: m
-    } = j(l), C = e.computed(() => ["t-icon", "t-icon-user-circle", y.value]), b = e.computed(() => _e(_e({
+      style: v
+    } = j(l), g = e.computed(() => ["t-icon", "t-icon-user-circle", y.value]), b = e.computed(() => Ve(Ve({
       fill: "none"
-    }, m.value), o.style)), v = e.computed(() => ({
-      class: C.value,
+    }, v.value), r.style)), p = e.computed(() => ({
+      class: g.value,
       style: b.value,
       onClick: (a) => {
-        var u;
-        return (u = t.onClick) === null || u === void 0 ? void 0 : u.call(t, {
+        var f;
+        return (f = t.onClick) === null || f === void 0 ? void 0 : f.call(t, {
           e: a
         });
       },
       strokeColor1: i.value,
-      strokeColor2: c.value,
-      fillColor1: f.value,
+      strokeColor2: s.value,
+      fillColor1: m.value,
       fillColor2: n.value,
       strokeWidth: t.strokeWidth || 2,
-      filledColor: g.value
+      filledColor: u.value
     }));
-    return () => P(at, v.value);
+    return () => O(nt, p.value);
   }
-}), te, Ve;
-function it() {
-  return Ve || (Ve = 1, te = TDesign), te;
-}
-var _ = it(), re, Ne;
+}), re, Ne;
 function st() {
-  return Ne || (Ne = 1, re = mslxRequest), re;
+  return Ne || (Ne = 1, re = TDesign), re;
 }
-var ct = st();
-const dt = /* @__PURE__ */ Be(ct), le = "ajp1yp2ztx3m9pku", ut = "https://dash.lolia.link/oauth/authorize", Oe = "https://api.lolia.link/api/v1/oauth2/token", W = "https://mslx.mslmc.cn/third-party/lolia-frp/callback", X = "lolia_frp_user", ae = "lolia_frp_pkce_session";
-function oe(t = 64) {
-  const r = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~", o = new Uint8Array(t);
-  return window.crypto.getRandomValues(o), Array.from(o, (l) => r[l % r.length]).join("");
+var _ = st(), oe, Ee;
+function ct() {
+  return Ee || (Ee = 1, oe = mslxRequest), oe;
+}
+var dt = ct();
+const G = /* @__PURE__ */ Ie(dt), ae = "ajp1yp2ztx3m9pku", ut = "https://dash.lolia.link/oauth/authorize", Oe = "/api/plugin/mslx-plugin-lolia-frp/oauth2/token", W = "https://mslx.mslmc.cn/third-party/lolia-frp/callback", J = "lolia_frp_user", ne = "lolia_frp_pkce_session";
+function le(t = 64) {
+  const o = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~", r = new Uint8Array(t);
+  return window.crypto.getRandomValues(r), Array.from(r, (l) => o[l % o.length]).join("");
 }
 function ft(t) {
-  const r = new Uint8Array(t);
-  let o = "";
-  for (let l = 0; l < r.byteLength; l++)
-    o += String.fromCharCode(r[l]);
-  return btoa(o).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+  const o = new Uint8Array(t);
+  let r = "";
+  for (let l = 0; l < o.byteLength; l++)
+    r += String.fromCharCode(o[l]);
+  return btoa(r).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
 }
 async function mt(t) {
-  const o = new TextEncoder().encode(t), l = await window.crypto.subtle.digest("SHA-256", o);
+  const r = new TextEncoder().encode(t), l = await window.crypto.subtle.digest("SHA-256", r);
   return ft(l);
 }
 async function vt(t = W) {
-  const r = oe(64), o = await mt(r), l = oe(16), i = {
-    codeVerifier: r,
-    codeChallenge: o,
+  const o = le(64), r = await mt(o), l = le(16), i = {
+    codeVerifier: o,
+    codeChallenge: r,
     state: l,
     redirectUri: t,
     createdAt: Date.now()
   };
-  sessionStorage.setItem(ae, JSON.stringify(i));
-  const c = new URLSearchParams({
+  sessionStorage.setItem(ne, JSON.stringify(i));
+  const s = new URLSearchParams({
     response_type: "code",
-    client_id: le,
+    client_id: ae,
     redirect_uri: t,
     scope: "all",
     state: l,
-    code_challenge: o,
+    code_challenge: r,
     code_challenge_method: "S256"
-  }), f = `${ut}?${c.toString()}`;
-  return { session: i, authUrl: f };
+  }), m = `${ut}?${s.toString()}`;
+  return { session: i, authUrl: m };
 }
 function K() {
-  const t = sessionStorage.getItem(ae);
+  const t = sessionStorage.getItem(ne);
   if (!t) return null;
   try {
     return JSON.parse(t);
@@ -1048,73 +1048,87 @@ function K() {
     return null;
   }
 }
-async function pt(t, r, o = W) {
+async function pt(t, o, r = W) {
   const l = {
     grant_type: "authorization_code",
-    client_id: le,
+    client_id: ae,
     code: t.trim(),
-    code_verifier: r.trim(),
-    redirect_uri: o
-  }, i = await fetch(Oe, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Accept: "application/json"
-    },
-    body: JSON.stringify(l)
-  }), c = await i.json();
-  if (!i.ok || c.error)
-    throw new Error(c.error_description || c.error || c.msg || "获取 Access Token 失败");
-  return c;
+    code_verifier: o.trim(),
+    redirect_uri: r
+  };
+  try {
+    const i = await G.post(
+      {
+        url: Oe,
+        data: l
+      },
+      {
+        isTransformResponse: !1
+      }
+    );
+    if (!i || i.error)
+      throw new Error(i?.error_description || i?.error || i?.msg || "获取 Access Token 失败");
+    return i;
+  } catch (i) {
+    const s = i.response?.data;
+    throw s && (s.error_description || s.error || s.msg || s.message) ? new Error(s.error_description || s.error || s.msg || s.message) : i;
+  }
 }
 async function Ct(t) {
-  const r = {
+  const o = {
     grant_type: "refresh_token",
-    client_id: le,
+    client_id: ae,
     refresh_token: t.trim()
-  }, o = await fetch(Oe, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Accept: "application/json"
-    },
-    body: JSON.stringify(r)
-  }), l = await o.json();
-  if (!o.ok || l.error)
-    throw new Error(l.error_description || l.error || l.msg || "刷新令牌失败");
-  return l;
+  };
+  try {
+    const r = await G.post(
+      {
+        url: Oe,
+        data: o
+      },
+      {
+        isTransformResponse: !1
+      }
+    );
+    if (!r || r.error)
+      throw new Error(r?.error_description || r?.error || r?.msg || "刷新令牌失败");
+    return r;
+  } catch (r) {
+    const l = r.response?.data;
+    throw l && (l.error_description || l.error || l.msg || l.message) ? new Error(l.error_description || l.error || l.msg || l.message) : r;
+  }
 }
-function Pe() {
-  const t = localStorage.getItem(X);
+function Se() {
+  const t = localStorage.getItem(J);
   if (!t) return null;
   try {
     return JSON.parse(t);
   } catch {
-    return localStorage.removeItem(X), null;
+    return localStorage.removeItem(J), null;
   }
 }
-function J(t) {
-  localStorage.setItem(X, JSON.stringify(t));
+function X(t) {
+  localStorage.setItem(J, JSON.stringify(t));
 }
-function Se() {
-  localStorage.removeItem(X), sessionStorage.removeItem(ae);
+function Ae() {
+  localStorage.removeItem(J), sessionStorage.removeItem(ne);
 }
 async function gt() {
-  const t = Pe();
+  const t = Se();
   if (!t || !t.accessToken)
     throw new Error("未登录或登录已过期，请重新授权");
   if (t.accessTokenExpiresAt && Date.now() >= t.accessTokenExpiresAt - 6e4 && t.refreshToken)
     try {
-      const o = await Ct(t.refreshToken), l = {
+      const r = await Ct(t.refreshToken), l = {
         ...t,
-        accessToken: o.access_token,
-        refreshToken: o.refresh_token || t.refreshToken,
-        accessTokenExpiresAt: o.expires_in ? Date.now() + o.expires_in * 1e3 : void 0,
-        tokenType: o.token_type || t.tokenType || "Bearer"
+        accessToken: r.access_token,
+        refreshToken: r.refresh_token || t.refreshToken,
+        accessTokenExpiresAt: r.expires_in ? Date.now() + r.expires_in * 1e3 : void 0,
+        tokenType: r.token_type || t.tokenType || "Bearer"
       };
-      return J(l), l.accessToken;
+      return X(l), l.accessToken;
     } catch {
-      throw Se(), new Error("登录凭据已失效，请重新授权");
+      throw Ae(), new Error("登录凭据已失效，请重新授权");
     }
   return t.accessToken;
 }
@@ -1122,21 +1136,45 @@ async function yt() {
   const t = await gt();
   return t.startsWith("Bearer ") ? t : `Bearer ${t}`;
 }
-const ht = "https://api.lolia.link/api/v1";
-async function I(t, r = {}) {
-  const o = await yt(), l = `${ht}${t.startsWith("/") ? t : "/" + t}`, i = {
+const ht = "/api/plugin/mslx-plugin-lolia-frp";
+async function I(t, o = {}) {
+  const r = await yt(), l = t.startsWith("/") ? t : "/" + t, i = `${ht}${l}`, s = {
     Accept: "application/json",
-    Authorization: o,
-    ...r.headers || {}
+    "X-Lolia-Authorization": r,
+    ...o.headers || {}
   };
-  r.body && typeof r.body == "string" && !i["Content-Type"] && (i["Content-Type"] = "application/json");
-  const c = await fetch(l, {
-    ...r,
-    headers: i
-  }), f = await c.json();
-  if (!c.ok || f.code !== 200 && f.code !== 0 && f.code !== 201)
-    throw new Error(f.msg || f.message || `请求失败 (${c.status})`);
-  return f.data;
+  let m = o.data;
+  if (!m && o.body)
+    if (typeof o.body == "string")
+      try {
+        m = JSON.parse(o.body);
+      } catch {
+        m = o.body;
+      }
+    else
+      m = o.body;
+  try {
+    const u = await G.request(
+      {
+        url: i,
+        method: o.method || "GET",
+        data: m,
+        headers: s
+      },
+      {
+        isTransformResponse: !1
+      }
+    );
+    if (u && typeof u.code == "number") {
+      if (u.code !== 200 && u.code !== 0 && u.code !== 201)
+        throw new Error(u.msg || u.message || `请求失败 (${u.code})`);
+      return u.data;
+    }
+    return u;
+  } catch (n) {
+    const u = n.response?.data;
+    throw u && (u.msg || u.message || u.error_description) ? new Error(u.msg || u.message || u.error_description) : n;
+  }
 }
 async function kt() {
   return I("/user/info");
@@ -1147,13 +1185,13 @@ async function bt() {
 async function xt() {
   return (await I("/user/nodes", {
     method: "POST",
-    body: JSON.stringify({ page: 1, limit: 1e3 })
+    data: { page: 1, limit: 1e3 }
   }))?.nodes || [];
 }
 async function wt(t) {
   return I("/user/tunnel", {
     method: "POST",
-    body: JSON.stringify(t)
+    data: t
   });
 }
 async function _t(t) {
@@ -1167,21 +1205,21 @@ async function Vt(t) {
   );
 }
 function Nt(t) {
-  let r = (t || "").trim();
-  if (!r) return "";
+  let o = (t || "").trim();
+  if (!o) return "";
   try {
-    if (!r.includes(`
-`) && /^[A-Za-z0-9+/=]+$/.test(r)) {
-      const y = atob(r), m = new Uint8Array(y.length);
-      for (let C = 0; C < y.length; C++)
-        m[C] = y.charCodeAt(C);
-      r = new TextDecoder("utf-8").decode(m).trim();
+    if (!o.includes(`
+`) && /^[A-Za-z0-9+/=]+$/.test(o)) {
+      const y = atob(o), v = new Uint8Array(y.length);
+      for (let g = 0; g < y.length; g++)
+        v[g] = y.charCodeAt(g);
+      o = new TextDecoder("utf-8").decode(v).trim();
     }
   } catch {
   }
-  if (r.includes("[[proxies]]") || r.includes("serverAddr =") || r.includes("serverAddr="))
-    return r;
-  const o = {
+  if (o.includes("[[proxies]]") || o.includes("serverAddr =") || o.includes("serverAddr="))
+    return o;
+  const r = {
     tls_enable: "transport.tls.enable",
     token: "auth.token",
     protocol: "transport.protocol",
@@ -1193,44 +1231,44 @@ function Nt(t) {
     host_header_rewrite: "hostHeaderRewrite",
     role: "role",
     sk: "sk"
-  }, l = r.split(/\r?\n/);
+  }, l = o.split(/\r?\n/);
   let i = "";
-  const c = {}, f = [];
+  const s = {}, m = [];
   let n = null;
   l.forEach((y) => {
-    const m = y.trim();
-    if (!m || m.startsWith("#") || m.startsWith(";")) return;
-    const C = m.match(/^\[(.+)\]$/);
-    if (C) {
-      i = C[1], i === "common" ? n = null : (n = { name: i }, f.push(n));
+    const v = y.trim();
+    if (!v || v.startsWith("#") || v.startsWith(";")) return;
+    const g = v.match(/^\[(.+)\]$/);
+    if (g) {
+      i = g[1], i === "common" ? n = null : (n = { name: i }, m.push(n));
       return;
     }
-    const b = m.match(/^([^=]+)=(.*)$/);
+    const b = v.match(/^([^=]+)=(.*)$/);
     if (b) {
-      const v = b[1].trim();
-      let a = b[2].trim(), u = v;
-      o[v] ? u = o[v] : (u = u.replace(/_([a-z])/g, (U, x) => x.toUpperCase()), u = u.replace(/Ip/g, "IP")), a === "true" ? a = !0 : a === "false" ? a = !1 : !isNaN(Number(a)) && a !== "" ? a = Number(a) : a = String(a), i === "common" || !i ? c[u] = a : n && (n[u] = a);
+      const p = b[1].trim();
+      let a = b[2].trim(), f = p;
+      r[p] ? f = r[p] : (f = f.replace(/_([a-z])/g, (U, x) => x.toUpperCase()), f = f.replace(/Ip/g, "IP")), a === "true" ? a = !0 : a === "false" ? a = !1 : !isNaN(Number(a)) && a !== "" ? a = Number(a) : a = String(a), i === "common" || !i ? s[f] = a : n && (n[f] = a);
     }
   });
-  let g = "";
-  return Object.entries(c).forEach(([y, m]) => {
-    const C = typeof m == "string" ? `"${m}"` : m;
-    g += `${y} = ${C}
+  let u = "";
+  return Object.entries(s).forEach(([y, v]) => {
+    const g = typeof v == "string" ? `"${v}"` : v;
+    u += `${y} = ${g}
 `;
-  }), f.forEach((y) => {
-    g += `
+  }), m.forEach((y) => {
+    u += `
 [[proxies]]
-`, Object.entries(y).forEach(([m, C]) => {
-      const b = typeof C == "string" ? `"${C}"` : C;
-      g += `${m} = ${b}
+`, Object.entries(y).forEach(([v, g]) => {
+      const b = typeof g == "string" ? `"${g}"` : g;
+      u += `${v} = ${b}
 `;
     });
-  }), g.trim();
+  }), u.trim();
 }
-function Ee(t, r = 2) {
+function Pe(t, o = 2) {
   if (t == null || isNaN(t) || t === 0) return "0 B";
-  const o = 1024, l = r < 0 ? 0 : r, i = ["B", "KB", "MB", "GB", "TB", "PB"], c = Math.floor(Math.log(t) / Math.log(o));
-  return `${parseFloat((t / Math.pow(o, c)).toFixed(l))} ${i[c]}`;
+  const r = 1024, l = o < 0 ? 0 : o, i = ["B", "KB", "MB", "GB", "TB", "PB"], s = Math.floor(Math.log(t) / Math.log(r));
+  return `${parseFloat((t / Math.pow(r, s)).toFixed(l))} ${i[s]}`;
 }
 const Et = /* @__PURE__ */ e.defineComponent({
   __name: "CreateTunnelDialog",
@@ -1238,8 +1276,8 @@ const Et = /* @__PURE__ */ e.defineComponent({
     visible: { type: Boolean }
   },
   emits: ["update:visible", "success"],
-  setup(t, { emit: r }) {
-    const o = t, l = r, i = e.ref(!1), c = e.ref(!1), f = e.ref([]), n = e.reactive({
+  setup(t, { emit: o }) {
+    const r = t, l = o, i = e.ref(!1), s = e.ref(!1), m = e.ref([]), n = e.reactive({
       nodeId: null,
       type: "tcp",
       localIp: "127.0.0.1",
@@ -1247,31 +1285,31 @@ const Et = /* @__PURE__ */ e.defineComponent({
       remotePort: "",
       customDomain: "",
       remark: ""
-    }), g = e.computed(() => f.value.find((v) => v.id === n.nodeId) || null), y = e.computed(() => g.value && g.value.supported_protocols && g.value.supported_protocols.length > 0 ? g.value.supported_protocols.map((v) => v.toLowerCase()) : ["tcp", "udp", "http", "https"]), m = () => {
-      n.remark = "MSLX_" + oe(6), (n.type === "tcp" || n.type === "udp") && (n.remotePort = (Math.floor(Math.random() * 55536) + 1e4).toString());
-    }, C = async () => {
+    }), u = e.computed(() => m.value.find((p) => p.id === n.nodeId) || null), y = e.computed(() => u.value && u.value.supported_protocols && u.value.supported_protocols.length > 0 ? u.value.supported_protocols.map((p) => p.toLowerCase()) : ["tcp", "udp", "http", "https"]), v = () => {
+      n.remark = "MSLX_" + le(6), (n.type === "tcp" || n.type === "udp") && (n.remotePort = (Math.floor(Math.random() * 55536) + 1e4).toString());
+    }, g = async () => {
       i.value = !0;
       try {
-        const v = await xt();
-        if (f.value = v || [], f.value.length > 0 && n.nodeId === null) {
-          const a = f.value.find((u) => u.status === "online") || f.value[0];
-          n.nodeId = a.id, m();
+        const p = await xt();
+        if (m.value = p || [], m.value.length > 0 && n.nodeId === null) {
+          const a = m.value.find((f) => f.status === "online") || m.value[0];
+          n.nodeId = a.id, v();
         }
-      } catch (v) {
-        _.MessagePlugin.error(`加载节点列表失败: ${v.message || "网络异常"}`);
+      } catch (p) {
+        _.MessagePlugin.error(`加载节点列表失败: ${p.message || "网络异常"}`);
       } finally {
         i.value = !1;
       }
     };
     e.watch(
-      () => o.visible,
-      (v) => {
-        v && (f.value.length === 0 ? C() : m());
+      () => r.visible,
+      (p) => {
+        p && (m.value.length === 0 ? g() : v());
       }
     ), e.watch(
       () => n.type,
-      (v) => {
-        v === "http" || v === "https" ? n.remotePort = v === "http" ? "80" : "443" : (!n.remotePort || n.remotePort === "80" || n.remotePort === "443") && (n.remotePort = (Math.floor(Math.random() * 55536) + 1e4).toString());
+      (p) => {
+        p === "http" || p === "https" ? n.remotePort = p === "http" ? "80" : "443" : (!n.remotePort || n.remotePort === "80" || n.remotePort === "443") && (n.remotePort = (Math.floor(Math.random() * 55536) + 1e4).toString());
       }
     );
     const b = async () => {
@@ -1287,45 +1325,45 @@ const Et = /* @__PURE__ */ e.defineComponent({
         _.MessagePlugin.warning("HTTP/HTTPS 穿透必须填写自定义域名");
         return;
       }
-      const v = parseInt(n.localPort, 10), a = parseInt(n.remotePort, 10) || 0;
-      if (isNaN(v) || v <= 0 || v > 65535) {
+      const p = parseInt(n.localPort, 10), a = parseInt(n.remotePort, 10) || 0;
+      if (isNaN(p) || p <= 0 || p > 65535) {
         _.MessagePlugin.warning("本地端口格式不正确 (1-65535)");
         return;
       }
-      c.value = !0;
+      s.value = !0;
       try {
         await wt({
           node_id: n.nodeId,
           type: n.type.toLowerCase(),
           local_ip: n.localIp.trim(),
-          local_port: v,
+          local_port: p,
           remote_port: a,
           custom_domain: n.customDomain.trim(),
           remark: n.remark.trim() || "MSLX 隧道"
         }), _.MessagePlugin.success(`隧道 ${n.remark || "Lolia FRP"} 创建成功！`), l("success"), l("update:visible", !1);
-      } catch (u) {
-        _.MessagePlugin.error(`创建隧道失败: ${u.message || "请检查配置或节点状态"}`);
+      } catch (f) {
+        _.MessagePlugin.error(`创建隧道失败: ${f.message || "请检查配置或节点状态"}`);
       } finally {
-        c.value = !1;
+        s.value = !1;
       }
     };
     return e.onMounted(() => {
-      o.visible && C();
-    }), (v, a) => {
-      const u = e.resolveComponent("t-tag"), U = e.resolveComponent("t-option"), x = e.resolveComponent("t-select"), V = e.resolveComponent("t-form-item"), S = e.resolveComponent("t-radio-button"), Y = e.resolveComponent("t-radio-group"), L = e.resolveComponent("t-input"), D = e.resolveComponent("t-col"), F = e.resolveComponent("t-button"), H = e.resolveComponent("t-row"), Z = e.resolveComponent("t-form"), G = e.resolveComponent("t-loading"), $ = e.resolveComponent("t-dialog");
+      r.visible && g();
+    }), (p, a) => {
+      const f = e.resolveComponent("t-tag"), U = e.resolveComponent("t-option"), x = e.resolveComponent("t-select"), V = e.resolveComponent("t-form-item"), S = e.resolveComponent("t-radio-button"), Y = e.resolveComponent("t-radio-group"), L = e.resolveComponent("t-input"), D = e.resolveComponent("t-col"), F = e.resolveComponent("t-button"), H = e.resolveComponent("t-row"), q = e.resolveComponent("t-form"), Q = e.resolveComponent("t-loading"), $ = e.resolveComponent("t-dialog");
       return e.openBlock(), e.createBlock($, {
         attach: "body",
         visible: t.visible,
         header: "新建 Lolia FRP 隧道",
         width: "580px",
-        "confirm-btn": { content: "提交创建", loading: c.value },
+        "confirm-btn": { content: "提交创建", loading: s.value },
         onConfirm: b,
         onClose: a[7] || (a[7] = (h) => l("update:visible", !1))
       }, {
         default: e.withCtx(() => [
-          e.createVNode(G, { loading: i.value }, {
+          e.createVNode(Q, { loading: i.value }, {
             default: e.withCtx(() => [
-              e.createVNode(Z, {
+              e.createVNode(q, {
                 data: n,
                 "label-align": "right",
                 "label-width": 100,
@@ -1342,10 +1380,10 @@ const Et = /* @__PURE__ */ e.defineComponent({
                         "onUpdate:modelValue": a[0] || (a[0] = (h) => n.nodeId = h),
                         placeholder: "请选择节点",
                         "popup-props": { overlayClassName: "max-h-[300px]" },
-                        onChange: m
+                        onChange: v
                       }, {
                         default: e.withCtx(() => [
-                          (e.openBlock(!0), e.createElementBlock(e.Fragment, null, e.renderList(f.value, (h) => (e.openBlock(), e.createBlock(U, {
+                          (e.openBlock(!0), e.createElementBlock(e.Fragment, null, e.renderList(m.value, (h) => (e.openBlock(), e.createBlock(U, {
                             key: h.id,
                             value: h.id,
                             label: h.name
@@ -1354,7 +1392,7 @@ const Et = /* @__PURE__ */ e.defineComponent({
                               e.createElementVNode("div", { class: "flex justify-between items-center w-full" }, [
                                 e.createElementVNode("span", { class: "truncate" }, e.toDisplayString(h.name), 1),
                                 e.createElementVNode("div", { class: "flex items-center gap-1.5 shrink-0 ml-2" }, [
-                                  h.status === "online" ? (e.openBlock(), e.createBlock(u, {
+                                  h.status === "online" ? (e.openBlock(), e.createBlock(f, {
                                     key: 0,
                                     theme: "success",
                                     variant: "light",
@@ -1365,7 +1403,7 @@ const Et = /* @__PURE__ */ e.defineComponent({
                                       e.createTextVNode("在线")
                                     ]),
                                     _: 1
-                                  })) : (e.openBlock(), e.createBlock(u, {
+                                  })) : (e.openBlock(), e.createBlock(f, {
                                     key: 1,
                                     theme: "default",
                                     variant: "light",
@@ -1389,7 +1427,7 @@ const Et = /* @__PURE__ */ e.defineComponent({
                     ]),
                     _: 1
                   }),
-                  g.value ? (e.openBlock(), e.createBlock(V, {
+                  u.value ? (e.openBlock(), e.createBlock(V, {
                     key: 0,
                     label: "节点详情"
                   }, {
@@ -1398,14 +1436,14 @@ const Et = /* @__PURE__ */ e.defineComponent({
                         e.createElementVNode("div", { class: "bg-[var(--td-bg-color-secondarycontainer)] rounded-[var(--td-radius-medium)] p-3 border border-dashed border-[var(--td-component-border)] text-xs space-y-1" }, [
                           e.createElementVNode("div", { class: "flex justify-between" }, [
                             e.createElementVNode("span", { class: "text-zinc-500" }, "带宽限制:"),
-                            e.createElementVNode("span", { class: "font-bold text-[var(--td-text-color-primary)]" }, e.toDisplayString(g.value.bandwidth) + " Mbps", 1)
+                            e.createElementVNode("span", { class: "font-bold text-[var(--td-text-color-primary)]" }, e.toDisplayString(u.value.bandwidth) + " Mbps", 1)
                           ]),
-                          g.value.remark ? (e.openBlock(), e.createElementBlock("div", {
+                          u.value.remark ? (e.openBlock(), e.createElementBlock("div", {
                             key: 0,
                             class: "text-zinc-500"
                           }, [
                             e.createElementVNode("span", null, "备注: "),
-                            e.createElementVNode("span", { class: "text-[var(--td-text-color-primary)]" }, e.toDisplayString(g.value.remark), 1)
+                            e.createElementVNode("span", { class: "text-[var(--td-text-color-primary)]" }, e.toDisplayString(u.value.remark), 1)
                           ])) : e.createCommentVNode("", !0)
                         ])
                       ])
@@ -1515,7 +1553,7 @@ const Et = /* @__PURE__ */ e.defineComponent({
                                   e.createVNode(F, {
                                     variant: "text",
                                     size: "small",
-                                    onClick: m
+                                    onClick: v
                                   }, {
                                     default: e.withCtx(() => [
                                       e.createTextVNode("随机")
@@ -1567,49 +1605,49 @@ const Et = /* @__PURE__ */ e.defineComponent({
       }, 8, ["visible", "confirm-btn"]);
     };
   }
-}), Ae = (t, r) => {
-  const o = t.__vccOpts || t;
-  for (const [l, i] of r)
-    o[l] = i;
-  return o;
-}, Ot = /* @__PURE__ */ Ae(Et, [["__scopeId", "data-v-91a4827d"]]), Pt = /* @__PURE__ */ e.defineComponent({
+}), je = (t, o) => {
+  const r = t.__vccOpts || t;
+  for (const [l, i] of o)
+    r[l] = i;
+  return r;
+}, Pt = /* @__PURE__ */ je(Et, [["__scopeId", "data-v-91a4827d"]]), Ot = /* @__PURE__ */ e.defineComponent({
   __name: "LoliaFrpProvider",
   setup(t) {
-    const r = window.VueRouter?.useRouter?.() || window.MSLX_Router, o = e.ref(!1), l = e.ref(null), i = e.ref(!1), c = e.ref(null), f = e.ref([]), n = e.ref(null), g = e.ref(!1), y = e.ref(!1), m = e.ref(""), C = e.ref(!1), b = e.ref(!1), v = e.ref(!1), a = e.ref(null);
-    let u = null;
-    const U = e.computed(() => !!l.value?.accessToken), x = e.computed(() => f.value.find((d) => d.id === n.value) || null), V = (d) => {
-      const s = (d.status || "").toLowerCase();
-      return s === "active" || s === "online" || s === "true";
+    const o = window.VueRouter?.useRouter?.() || window.MSLX_Router, r = e.ref(!1), l = e.ref(null), i = e.ref(!1), s = e.ref(null), m = e.ref([]), n = e.ref(null), u = e.ref(!1), y = e.ref(!1), v = e.ref(""), g = e.ref(!1), b = e.ref(!1), p = e.ref(!1), a = e.ref(null);
+    let f = null;
+    const U = e.computed(() => !!l.value?.accessToken), x = e.computed(() => m.value.find((d) => d.id === n.value) || null), V = (d) => {
+      const c = (d.status || "").toLowerCase();
+      return c === "active" || c === "online" || c === "true";
     };
-    e.watch(m, (d) => {
-      const s = d.trim();
-      s && (s.includes("code=") || s.length >= 20) && h();
+    e.watch(v, (d) => {
+      const c = d.trim();
+      c && (c.includes("code=") || c.length >= 20) && h();
     }), e.onMounted(() => {
       window.addEventListener("message", F), window.addEventListener("focus", H), D();
-      const d = Pe();
+      const d = Se();
       d && d.accessToken && (l.value = d, M(!1));
     }), e.onBeforeUnmount(() => {
       S(), window.removeEventListener("message", F), window.removeEventListener("focus", H), a.value && !a.value.closed && a.value.close();
     });
     function S() {
-      u !== null && (window.clearInterval(u), u = null);
+      f !== null && (window.clearInterval(f), f = null);
     }
     function Y(d) {
       window.open(d, "_blank");
     }
-    function L(d, s = "Lolia FRP 授权登录", k = 600, p = 700) {
+    function L(d, c = "Lolia FRP 授权登录", k = 600, C = 700) {
       if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
         return window.open(d, "_blank");
-      const z = window.screenLeft !== void 0 ? window.screenLeft : window.screenX, E = window.screenTop !== void 0 ? window.screenTop : window.screenY, T = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width, B = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height, O = T / window.screen.availWidth, w = (T - k) / 2 / O + z, q = (B - p) / 2 / O + E, ze = `scrollbars=yes,width=${k / O},height=${p / O},top=${q},left=${w}`, Q = window.open(d, s, ze);
-      return Q && Q.focus(), Q;
+      const z = window.screenLeft !== void 0 ? window.screenLeft : window.screenX, E = window.screenTop !== void 0 ? window.screenTop : window.screenY, T = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width, B = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height, P = T / window.screen.availWidth, w = (T - k) / 2 / P + z, Z = (B - C) / 2 / P + E, Be = `scrollbars=yes,width=${k / P},height=${C / P},top=${Z},left=${w}`, ee = window.open(d, c, Be);
+      return ee && ee.focus(), ee;
     }
     async function D() {
-      const d = new URLSearchParams(window.location.search), s = d.get("code"), k = d.get("state");
-      if (s) {
-        const p = K();
-        if (p && (!k || k === p.state))
+      const d = new URLSearchParams(window.location.search), c = d.get("code"), k = d.get("state");
+      if (c) {
+        const C = K();
+        if (C && (!k || k === C.state))
           try {
-            await $(s, p.codeVerifier, p.redirectUri);
+            await $(c, C.codeVerifier, C.redirectUri);
             const N = window.location.origin + window.location.pathname;
             window.history.replaceState({}, document.title, N);
           } catch (N) {
@@ -1619,169 +1657,169 @@ const Et = /* @__PURE__ */ e.defineComponent({
     }
     function F(d) {
       if (d.data && d.data.type === "LOLIA_OAUTH_CODE") {
-        const { code: s, state: k } = d.data, p = K();
-        p && (!k || k === p.state) && (a.value && !a.value.closed && a.value.close(), $(s, p.codeVerifier, p.redirectUri));
+        const { code: c, state: k } = d.data, C = K();
+        C && (!k || k === C.state) && (a.value && !a.value.closed && a.value.close(), $(c, C.codeVerifier, C.redirectUri));
       }
     }
     function H() {
-      a.value && Z();
+      a.value && q();
     }
-    function Z() {
+    function q() {
       if (!(!a.value || a.value.closed))
         try {
           const d = a.value.location.href;
           if (d && d.includes("code=")) {
-            const k = new URL(d).searchParams.get("code"), p = K();
-            k && p && (S(), a.value && !a.value.closed && a.value.close(), $(k, p.codeVerifier, p.redirectUri));
+            const k = new URL(d).searchParams.get("code"), C = K();
+            k && C && (S(), a.value && !a.value.closed && a.value.close(), $(k, C.codeVerifier, C.redirectUri));
           }
         } catch {
         }
     }
-    async function G() {
-      S(), g.value = !0;
+    async function Q() {
+      S(), u.value = !0;
       try {
         const { authUrl: d } = await vt(W);
-        a.value = L(d, "Lolia FRP 授权登录", 600, 700), u = window.setInterval(() => {
+        a.value = L(d, "Lolia FRP 授权登录", 600, 700), f = window.setInterval(() => {
           if (!a.value || a.value.closed) {
             S();
             return;
           }
-          Z();
+          q();
         }, 400), y.value = !0;
       } catch (d) {
         _.MessagePlugin.error(`启动授权失败: ${d.message || "网络异常"}`);
       } finally {
-        g.value = !1;
+        u.value = !1;
       }
     }
-    async function $(d, s, k = W) {
+    async function $(d, c, k = W) {
       S(), i.value = !0;
       try {
-        const p = await pt(d, s, k), N = {
-          accessToken: p.access_token,
-          refreshToken: p.refresh_token,
-          accessTokenExpiresAt: p.expires_in ? Date.now() + p.expires_in * 1e3 : void 0,
-          tokenType: p.token_type || "Bearer"
+        const C = await pt(d, c, k), N = {
+          accessToken: C.access_token,
+          refreshToken: C.refresh_token,
+          accessTokenExpiresAt: C.expires_in ? Date.now() + C.expires_in * 1e3 : void 0,
+          tokenType: C.token_type || "Bearer"
         };
-        J(N), l.value = N, y.value = !1, m.value = "", a.value && !a.value.closed && a.value.close(), await M(), _.MessagePlugin.success("Lolia FRP 授权登录成功！");
-      } catch (p) {
-        _.MessagePlugin.error(`换取令牌失败: ${p.message || "授权码无效或已过期"}`);
+        X(N), l.value = N, y.value = !1, v.value = "", a.value && !a.value.closed && a.value.close(), await M(), _.MessagePlugin.success("Lolia FRP 授权登录成功！");
+      } catch (C) {
+        _.MessagePlugin.error(`换取令牌失败: ${C.message || "授权码无效或已过期"}`);
       } finally {
         i.value = !1;
       }
     }
     async function h() {
-      const d = m.value.trim();
+      const d = v.value.trim();
       if (!d) {
         _.MessagePlugin.warning("请输入授权码、回调 URL 或 Access Token");
         return;
       }
-      C.value = !0;
+      g.value = !0;
       try {
-        const s = K();
+        const c = K();
         if (d.includes("code=")) {
-          let p = "";
+          let C = "";
           try {
-            p = new URL(d.startsWith("http") ? d : `https://dummy.com/${d.startsWith("?") ? "" : "?"}${d}`).searchParams.get("code") || "";
+            C = new URL(d.startsWith("http") ? d : `https://dummy.com/${d.startsWith("?") ? "" : "?"}${d}`).searchParams.get("code") || "";
           } catch {
             const E = d.match(/[?&]code=([^&]+)/);
-            E && (p = decodeURIComponent(E[1]));
+            E && (C = decodeURIComponent(E[1]));
           }
-          if (!p)
+          if (!C)
             throw new Error("未能从输入的文本中解析出有效的 code 参数");
-          const N = s?.codeVerifier || "", z = s?.redirectUri || W;
-          await $(p, N, z);
+          const N = c?.codeVerifier || "", z = c?.redirectUri || W;
+          await $(C, N, z);
           return;
         }
-        if (s && s.codeVerifier) {
-          await $(d, s.codeVerifier, s.redirectUri);
+        if (c && c.codeVerifier) {
+          await $(d, c.codeVerifier, c.redirectUri);
           return;
         }
         const k = {
           accessToken: d,
           tokenType: "Bearer"
         };
-        J(k), l.value = k, y.value = !1, m.value = "", a.value && !a.value.closed && a.value.close(), await M(), _.MessagePlugin.success("Lolia FRP 凭据保存成功！");
-      } catch (s) {
-        _.MessagePlugin.error(`验证失败: ${s.message || "请重试"}`);
+        X(k), l.value = k, y.value = !1, v.value = "", a.value && !a.value.closed && a.value.close(), await M(), _.MessagePlugin.success("Lolia FRP 凭据保存成功！");
+      } catch (c) {
+        _.MessagePlugin.error(`验证失败: ${c.message || "请重试"}`);
       } finally {
-        C.value = !1;
+        g.value = !1;
       }
     }
     async function M(d = !0) {
       i.value = !0;
       try {
-        const [s, k] = await Promise.all([kt(), bt()]);
-        if (c.value = s, f.value = k || [], l.value) {
-          const p = {
+        const [c, k] = await Promise.all([kt(), bt()]);
+        if (s.value = c, m.value = k || [], l.value) {
+          const C = {
             ...l.value,
-            username: s.username,
-            avatar: s.avatar,
-            email: s.email,
-            role: s.role,
-            bandwidthLimit: s.bandwidth_limit,
-            maxTunnelCount: s.max_tunnel_count,
-            trafficLimit: s.traffic_limit,
-            trafficUsed: s.traffic_used,
-            hasKyc: s.has_kyc,
-            kycStatus: s.kyc_status
+            username: c.username,
+            avatar: c.avatar,
+            email: c.email,
+            role: c.role,
+            bandwidthLimit: c.bandwidth_limit,
+            maxTunnelCount: c.max_tunnel_count,
+            trafficLimit: c.traffic_limit,
+            trafficUsed: c.traffic_used,
+            hasKyc: c.has_kyc,
+            kycStatus: c.kyc_status
           };
-          l.value = p, J(p);
+          l.value = C, X(C);
         }
-        return f.value.length === 0 ? n.value = null : f.value.some((p) => p.id === n.value) || (n.value = f.value[0].id), !0;
-      } catch (s) {
-        return d && _.MessagePlugin.error(`获取 Lolia FRP 数据失败: ${s.message || "网络异常"}`), !1;
+        return m.value.length === 0 ? n.value = null : m.value.some((C) => C.id === n.value) || (n.value = m.value[0].id), !0;
+      } catch (c) {
+        return d && _.MessagePlugin.error(`获取 Lolia FRP 数据失败: ${c.message || "网络异常"}`), !1;
       } finally {
         i.value = !1;
       }
     }
-    async function je() {
+    async function Le() {
       await M() && _.MessagePlugin.success("数据已更新");
     }
-    function Le() {
-      S(), Se(), l.value = null, c.value = null, f.value = [], n.value = null, _.MessagePlugin.success("已断开 Lolia FRP 授权");
+    function $e() {
+      S(), Ae(), l.value = null, s.value = null, m.value = [], n.value = null, _.MessagePlugin.success("已断开 Lolia FRP 授权");
     }
-    const $e = () => {
-      o.value = !0;
-    }, Te = () => {
+    const Te = () => {
+      r.value = !0;
+    }, De = () => {
       M();
     };
-    async function De() {
+    async function Me() {
       if (x.value) {
-        v.value = !0;
+        p.value = !0;
         try {
           await _t(x.value.name), _.MessagePlugin.success("隧道删除成功"), n.value = null, await M();
         } catch (d) {
           _.MessagePlugin.error(`删除失败: ${d.message || "未知错误"}`);
         } finally {
-          v.value = !1;
+          p.value = !1;
         }
       }
     }
-    async function Me() {
+    async function ze() {
       if (x.value) {
         b.value = !0;
         try {
-          const d = await Vt(x.value.name), s = d.config || d.lolia_config || "";
-          if (!s)
+          const d = await Vt(x.value.name), c = d.config || d.lolia_config || "";
+          if (!c)
             throw new Error("获取到的隧道配置为空");
-          const k = Nt(s), p = `${x.value.remark || x.value.name} | ${x.value.node_name} | Lolia FRP`, N = await new Promise((T, B) => {
-            const O = e.ref(p), w = _.DialogPlugin({
+          const k = Nt(c), C = `${x.value.remark || x.value.name} | ${x.value.node_name} | Lolia FRP`, N = await new Promise((T, B) => {
+            const P = e.ref(C), w = _.DialogPlugin({
               header: "自定义隧道名称",
               body: () => e.h(_.Input, {
-                value: O.value,
+                value: P.value,
                 placeholder: "请输入隧道名称",
                 clearable: !0,
-                onChange: (q) => {
-                  O.value = String(q);
+                onChange: (Z) => {
+                  P.value = String(Z);
                 }
               }),
               onConfirm: () => {
-                if (!O.value.trim()) {
+                if (!P.value.trim()) {
                   _.MessagePlugin.warning("隧道名称不能为空");
                   return;
                 }
-                w.hide(), T(O.value.trim());
+                w.hide(), T(P.value.trim());
               },
               onClose: () => {
                 w.hide(), B(new Error("cancel"));
@@ -1791,7 +1829,7 @@ const Et = /* @__PURE__ */ e.defineComponent({
               }
             });
           });
-          await dt.post({
+          await G.post({
             url: "/api/frp/add",
             data: {
               name: N,
@@ -1801,7 +1839,7 @@ const Et = /* @__PURE__ */ e.defineComponent({
             }
           }), _.MessagePlugin.success("隧道已成功添加到 MSLX！");
           const E = window.MSLX_Stores?.useTunnelsStore?.();
-          E?.getTunnels && await E.getTunnels(), r?.push ? r.push("/frp/list") : window.location.href = window.location.origin + "/frp/list";
+          E?.getTunnels && await E.getTunnels(), o?.push ? o.push("/frp/list") : window.location.href = window.location.origin + "/frp/list";
         } catch (d) {
           d?.message !== "cancel" && _.MessagePlugin.error(`添加隧道异常: ${d.message || "未知错误"}`);
         } finally {
@@ -1809,8 +1847,8 @@ const Et = /* @__PURE__ */ e.defineComponent({
         }
       }
     }
-    return (d, s) => {
-      const k = e.resolveComponent("t-button"), p = e.resolveComponent("t-input"), N = e.resolveComponent("t-loading"), z = e.resolveComponent("t-avatar"), E = e.resolveComponent("t-tag"), T = e.resolveComponent("t-popconfirm"), B = e.resolveComponent("t-textarea"), O = e.resolveComponent("t-dialog");
+    return (d, c) => {
+      const k = e.resolveComponent("t-button"), C = e.resolveComponent("t-input"), N = e.resolveComponent("t-loading"), z = e.resolveComponent("t-avatar"), E = e.resolveComponent("t-tag"), T = e.resolveComponent("t-popconfirm"), B = e.resolveComponent("t-textarea"), P = e.resolveComponent("t-dialog");
       return e.openBlock(), e.createElementBlock("div", { class: "mx-auto pb-6 text-[var(--td-text-color-primary)]" }, [
         U.value ? (e.openBlock(), e.createElementBlock("div", {
           key: 1,
@@ -1822,7 +1860,7 @@ const Et = /* @__PURE__ */ e.defineComponent({
             loading: i.value,
             text: "加载数据中..."
           }, null, 8, ["loading"]),
-          c.value ? (e.openBlock(), e.createElementBlock("div", {
+          s.value ? (e.openBlock(), e.createElementBlock("div", {
             key: 0,
             class: "design-card list-item-anim bg-[var(--td-bg-color-container)] rounded-2xl border border-[var(--td-component-border)] shadow-sm p-5 sm:p-6",
             style: { "animation-delay": "0s" }
@@ -1830,18 +1868,18 @@ const Et = /* @__PURE__ */ e.defineComponent({
             e.createElementVNode("div", { class: "flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 pb-4 border-b border-dashed border-[var(--td-component-border)]" }, [
               e.createElementVNode("div", { class: "flex items-center gap-3" }, [
                 e.createVNode(z, {
-                  image: c.value.avatar,
+                  image: s.value.avatar,
                   size: "medium",
                   shape: "circle",
                   class: "!rounded-full overflow-hidden border border-[var(--td-component-border)]"
                 }, null, 8, ["image"]),
                 e.createElementVNode("div", { class: "flex flex-col" }, [
-                  e.createElementVNode("h3", { class: "text-lg font-bold text-[var(--td-text-color-primary)] m-0 leading-none" }, e.toDisplayString(c.value.username), 1),
-                  e.createElementVNode("span", { class: "text-xs text-zinc-500 mt-1" }, e.toDisplayString(c.value.email || "Lolia FRP 账户"), 1)
+                  e.createElementVNode("h3", { class: "text-lg font-bold text-[var(--td-text-color-primary)] m-0 leading-none" }, e.toDisplayString(s.value.username), 1),
+                  e.createElementVNode("span", { class: "text-xs text-zinc-500 mt-1" }, e.toDisplayString(s.value.email || "Lolia FRP 账户"), 1)
                 ])
               ]),
               e.createElementVNode("div", { class: "flex items-center gap-2" }, [
-                c.value.has_kyc ? (e.openBlock(), e.createBlock(E, {
+                s.value.has_kyc ? (e.openBlock(), e.createBlock(E, {
                   key: 0,
                   theme: "success",
                   variant: "light-outline",
@@ -1858,14 +1896,14 @@ const Et = /* @__PURE__ */ e.defineComponent({
                   class: "!rounded-md !font-bold"
                 }, {
                   default: e.withCtx(() => [
-                    e.createTextVNode(e.toDisplayString(c.value.role || "用户"), 1)
+                    e.createTextVNode(e.toDisplayString(s.value.role || "用户"), 1)
                   ]),
                   _: 1
                 }),
                 e.createElementVNode("div", { class: "w-px h-4 bg-[var(--td-component-border)] mx-1" }),
                 e.createVNode(T, {
                   content: "确认断开与 Lolia FRP 的授权吗？",
-                  onConfirm: Le
+                  onConfirm: $e
                 }, {
                   default: e.withCtx(() => [
                     e.createVNode(k, {
@@ -1890,7 +1928,7 @@ const Et = /* @__PURE__ */ e.defineComponent({
                 style: { background: "rgba(244, 244, 245, 0.8)", border: "1px solid rgba(228, 228, 231, 0.8)" }
               }, [
                 e.createElementVNode("div", { class: "text-[11px] font-extrabold text-[var(--td-text-color-secondary)] uppercase tracking-widest mb-1" }, " 用户名称 "),
-                e.createElementVNode("div", { class: "text-lg font-bold text-[var(--td-text-color-primary)] truncate" }, e.toDisplayString(c.value.username), 1)
+                e.createElementVNode("div", { class: "text-lg font-bold text-[var(--td-text-color-primary)] truncate" }, e.toDisplayString(s.value.username), 1)
               ]),
               e.createElementVNode("div", {
                 class: "p-4 rounded-xl transition-colors hover:bg-white dark:hover:bg-zinc-800",
@@ -1898,8 +1936,8 @@ const Et = /* @__PURE__ */ e.defineComponent({
               }, [
                 e.createElementVNode("div", { class: "text-[11px] font-extrabold text-[var(--td-text-color-secondary)] uppercase tracking-widest mb-1" }, " 隧道配额 "),
                 e.createElementVNode("div", { class: "text-lg font-bold text-[var(--td-text-color-primary)] font-mono" }, [
-                  e.createElementVNode("span", { class: "text-[var(--td-brand-color)]" }, e.toDisplayString(f.value.length), 1),
-                  e.createTextVNode(" / " + e.toDisplayString(c.value.max_tunnel_count) + " ", 1),
+                  e.createElementVNode("span", { class: "text-[var(--td-brand-color)]" }, e.toDisplayString(m.value.length), 1),
+                  e.createTextVNode(" / " + e.toDisplayString(s.value.max_tunnel_count) + " ", 1),
                   e.createElementVNode("span", { class: "text-sm font-medium text-zinc-500" }, "条")
                 ])
               ]),
@@ -1909,7 +1947,7 @@ const Et = /* @__PURE__ */ e.defineComponent({
               }, [
                 e.createElementVNode("div", { class: "text-[11px] font-extrabold text-[var(--td-text-color-secondary)] uppercase tracking-widest mb-1" }, " 带宽限制 "),
                 e.createElementVNode("div", { class: "text-lg font-bold text-[var(--td-text-color-primary)] font-mono" }, [
-                  e.createTextVNode(e.toDisplayString(c.value.bandwidth_limit * 8) + " ", 1),
+                  e.createTextVNode(e.toDisplayString(s.value.bandwidth_limit * 8) + " ", 1),
                   e.createElementVNode("span", { class: "text-sm font-medium text-zinc-500" }, "Mbps")
                 ])
               ]),
@@ -1918,7 +1956,7 @@ const Et = /* @__PURE__ */ e.defineComponent({
                 style: { background: "rgba(244, 244, 245, 0.8)", border: "1px solid rgba(228, 228, 231, 0.8)" }
               }, [
                 e.createElementVNode("div", { class: "text-[11px] font-extrabold text-[var(--td-text-color-secondary)] uppercase tracking-widest mb-1" }, " 流量统计 "),
-                e.createElementVNode("div", { class: "text-sm font-bold text-[var(--td-warning-color,#ed7b2f)] font-mono mt-1" }, e.toDisplayString(e.unref(Ee)(c.value.traffic_used)) + " / " + e.toDisplayString(e.unref(Ee)(c.value.traffic_limit)), 1)
+                e.createElementVNode("div", { class: "text-sm font-bold text-[var(--td-warning-color,#ed7b2f)] font-mono mt-1" }, e.toDisplayString(e.unref(Pe)(s.value.traffic_used)) + " / " + e.toDisplayString(e.unref(Pe)(s.value.traffic_limit)), 1)
               ])
             ])
           ])) : e.createCommentVNode("", !0),
@@ -1935,10 +1973,10 @@ const Et = /* @__PURE__ */ e.defineComponent({
                     variant: "text",
                     class: "!px-2 !m-0 !ml-0",
                     loading: i.value,
-                    onClick: je
+                    onClick: Le
                   }, {
                     icon: e.withCtx(() => [
-                      e.createVNode(e.unref(ot))
+                      e.createVNode(e.unref(lt))
                     ]),
                     default: e.withCtx(() => [
                       e.createTextVNode("刷新 ")
@@ -1949,10 +1987,10 @@ const Et = /* @__PURE__ */ e.defineComponent({
                     size: "small",
                     theme: "primary",
                     class: "!px-3 !ml-1 !rounded-lg",
-                    onClick: $e
+                    onClick: Te
                   }, {
                     icon: e.withCtx(() => [
-                      e.createVNode(e.unref(qe))
+                      e.createVNode(e.unref(Ke))
                     ]),
                     default: e.withCtx(() => [
                       e.createTextVNode("新建 ")
@@ -1962,17 +2000,17 @@ const Et = /* @__PURE__ */ e.defineComponent({
                 ])
               ]),
               e.createElementVNode("div", { class: "flex-1 overflow-y-auto custom-scrollbar p-3" }, [
-                f.value.length > 0 ? (e.openBlock(), e.createElementBlock("div", {
+                m.value.length > 0 ? (e.openBlock(), e.createElementBlock("div", {
                   key: 0,
                   class: "flex flex-col gap-2"
                 }, [
-                  (e.openBlock(!0), e.createElementBlock(e.Fragment, null, e.renderList(f.value, (w) => (e.openBlock(), e.createElementBlock("div", {
+                  (e.openBlock(!0), e.createElementBlock(e.Fragment, null, e.renderList(m.value, (w) => (e.openBlock(), e.createElementBlock("div", {
                     key: w.id,
                     class: e.normalizeClass([
                       "group flex items-center p-3 rounded-xl cursor-pointer transition-all duration-200 border",
                       n.value === w.id ? "selected-tunnel-item" : "unselected-tunnel-item"
                     ]),
-                    onClick: (q) => n.value = w.id
+                    onClick: (Z) => n.value = w.id
                   }, [
                     e.createElementVNode("div", {
                       class: e.normalizeClass([
@@ -1980,7 +2018,7 @@ const Et = /* @__PURE__ */ e.defineComponent({
                         n.value === w.id ? "bg-[var(--td-brand-color)] text-white" : "bg-[var(--td-bg-color-secondarycontainer)] text-[var(--td-text-color-secondary)]"
                       ])
                     }, [
-                      e.createVNode(e.unref(xe), { size: "20px" })
+                      e.createVNode(e.unref(we), { size: "20px" })
                     ], 2),
                     e.createElementVNode("div", { class: "flex-1 min-w-0 mr-3" }, [
                       e.createElementVNode("div", {
@@ -2021,7 +2059,7 @@ const Et = /* @__PURE__ */ e.defineComponent({
                   key: 1,
                   class: "h-full flex flex-col items-center justify-center opacity-60"
                 }, [
-                  e.createVNode(e.unref(xe), {
+                  e.createVNode(e.unref(we), {
                     size: "32px",
                     class: "text-zinc-400 mb-2"
                   }),
@@ -2044,13 +2082,13 @@ const Et = /* @__PURE__ */ e.defineComponent({
                       content: "确认删除此隧道吗？操作将不可恢复！",
                       theme: "danger",
                       placement: "bottom-right",
-                      onConfirm: De
+                      onConfirm: Me
                     }, {
                       default: e.withCtx(() => [
                         e.createVNode(k, {
                           theme: "danger",
                           class: "!rounded-lg hover:!bg-red-500 hover:!text-white transition-colors !m-0 !ml-0",
-                          loading: v.value
+                          loading: p.value
                         }, {
                           icon: e.withCtx(() => [
                             e.createVNode(e.unref(Ye))
@@ -2108,10 +2146,10 @@ const Et = /* @__PURE__ */ e.defineComponent({
                       loading: b.value,
                       block: "",
                       class: "!w-full !rounded-xl !h-12 !font-bold shadow-md shadow-[var(--td-brand-color-light)] text-base !m-0 !ml-0",
-                      onClick: Me
+                      onClick: ze
                     }, {
                       icon: e.withCtx(() => [
-                        e.createVNode(e.unref(tt))
+                        e.createVNode(e.unref(rt))
                       ]),
                       default: e.withCtx(() => [
                         e.createTextVNode(" 使用此隧道 ")
@@ -2167,12 +2205,12 @@ const Et = /* @__PURE__ */ e.defineComponent({
                     block: "",
                     theme: "primary",
                     size: "large",
-                    loading: g.value,
+                    loading: u.value,
                     class: "!w-full !rounded-xl !h-12 !font-bold shadow-md hover:shadow-lg !m-0 !ml-0",
-                    onClick: G
+                    onClick: Q
                   }, {
                     icon: e.withCtx(() => [
-                      e.createVNode(e.unref(nt))
+                      e.createVNode(e.unref(it))
                     ]),
                     default: e.withCtx(() => [
                       e.createTextVNode(" 授权登录 ")
@@ -2181,9 +2219,9 @@ const Et = /* @__PURE__ */ e.defineComponent({
                   }, 8, ["loading"])
                 ]),
                 e.createElementVNode("div", { class: "w-full mt-1" }, [
-                  e.createVNode(p, {
-                    modelValue: m.value,
-                    "onUpdate:modelValue": s[0] || (s[0] = (w) => m.value = w),
+                  e.createVNode(C, {
+                    modelValue: v.value,
+                    "onUpdate:modelValue": c[0] || (c[0] = (w) => v.value = w),
                     placeholder: "若未自动识别，可在此粘贴回调地址或Code",
                     size: "large",
                     clearable: "",
@@ -2191,12 +2229,12 @@ const Et = /* @__PURE__ */ e.defineComponent({
                     onEnter: h
                   }, {
                     "prefix-icon": e.withCtx(() => [
-                      e.createVNode(e.unref(Qe), { class: "opacity-60" })
+                      e.createVNode(e.unref(et), { class: "opacity-60" })
                     ]),
                     _: 1
                   }, 8, ["modelValue"])
                 ]),
-                m.value ? (e.openBlock(), e.createElementBlock("div", {
+                v.value ? (e.openBlock(), e.createElementBlock("div", {
                   key: 0,
                   class: "w-full"
                 }, [
@@ -2205,7 +2243,7 @@ const Et = /* @__PURE__ */ e.defineComponent({
                     theme: "default",
                     variant: "outline",
                     size: "large",
-                    loading: C.value,
+                    loading: g.value,
                     class: "!w-full !rounded-xl !h-10 !font-bold !m-0 !ml-0",
                     onClick: h
                   }, {
@@ -2221,7 +2259,7 @@ const Et = /* @__PURE__ */ e.defineComponent({
                   variant: "text",
                   size: "small",
                   class: "text-zinc-500 hover:text-[var(--td-brand-color)] !m-0",
-                  onClick: s[1] || (s[1] = (w) => Y("https://dash.lolia.link"))
+                  onClick: c[1] || (c[1] = (w) => Y("https://dash.lolia.link"))
                 }, {
                   default: e.withCtx(() => [
                     e.createTextVNode(" 前往 Lolia FRP 控制台 ")
@@ -2232,18 +2270,18 @@ const Et = /* @__PURE__ */ e.defineComponent({
             ])
           ])
         ])),
-        o.value ? (e.openBlock(), e.createBlock(Ot, {
+        r.value ? (e.openBlock(), e.createBlock(Pt, {
           key: 2,
-          visible: o.value,
-          "onUpdate:visible": s[2] || (s[2] = (w) => o.value = w),
-          onSuccess: Te
+          visible: r.value,
+          "onUpdate:visible": c[2] || (c[2] = (w) => r.value = w),
+          onSuccess: De
         }, null, 8, ["visible"])) : e.createCommentVNode("", !0),
-        e.createVNode(O, {
+        e.createVNode(P, {
           visible: y.value,
-          "onUpdate:visible": s[4] || (s[4] = (w) => y.value = w),
+          "onUpdate:visible": c[4] || (c[4] = (w) => y.value = w),
           header: "Lolia FRP 授权引导",
           width: "540px",
-          "confirm-btn": { content: "完成授权登录", loading: C.value },
+          "confirm-btn": { content: "完成授权登录", loading: g.value },
           onConfirm: h
         }, {
           default: e.withCtx(() => [
@@ -2260,8 +2298,8 @@ const Et = /* @__PURE__ */ e.defineComponent({
                 ])
               ]),
               e.createVNode(B, {
-                modelValue: m.value,
-                "onUpdate:modelValue": s[3] || (s[3] = (w) => m.value = w),
+                modelValue: v.value,
+                "onUpdate:modelValue": c[3] || (c[3] = (w) => v.value = w),
                 placeholder: "在此粘贴形如 https://mslx.mslmc.cn/?code=xxxxxx 的完整地址，或直接输入 code 授权码 / Token",
                 autosize: { minRows: 3, maxRows: 5 }
               }, null, 8, ["modelValue"])
@@ -2272,9 +2310,9 @@ const Et = /* @__PURE__ */ e.defineComponent({
       ]);
     };
   }
-}), St = /* @__PURE__ */ Ae(Pt, [["__scopeId", "data-v-a89407b8"]]), At = {
+}), St = /* @__PURE__ */ je(Ot, [["__scopeId", "data-v-a89407b8"]]), At = {
   name: "MSLX.Plugin.Lolia.Frp",
-  version: "0.0.10",
+  version: "1.0.5",
   // 注入穿透服务商插槽
   extensions: [
     {

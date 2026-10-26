@@ -1,6 +1,7 @@
+import request from 'mslx-request';
 import { getLoliaAuthorizationHeader } from './auth';
 
-export const LOLIA_API_BASE_URL = 'https://api.lolia.link/api/v1';
+export const LOLIA_API_BASE_URL = '/api/plugin/mslx-plugin-lolia-frp';
 
 export interface LoliaApiResponse<T = any> {
   code: number;
@@ -68,33 +69,67 @@ export interface CreateTunnelParams {
 
 async function requestLoliaApi<T = any>(
   path: string,
-  options: RequestInit = {}
+  options: {
+    method?: string;
+    body?: any;
+    data?: any;
+    headers?: Record<string, string>;
+  } = {}
 ): Promise<T> {
   const authHeader = await getLoliaAuthorizationHeader();
-  const url = `${LOLIA_API_BASE_URL}${path.startsWith('/') ? path : '/' + path}`;
+  const cleanPath = path.startsWith('/') ? path : '/' + path;
+  const url = `${LOLIA_API_BASE_URL}${cleanPath}`;
 
   const headers: Record<string, string> = {
     Accept: 'application/json',
-    Authorization: authHeader,
-    ...(options.headers as Record<string, string> || {}),
+    'X-Lolia-Authorization': authHeader,
+    ...(options.headers || {}),
   };
 
-  if (options.body && typeof options.body === 'string' && !headers['Content-Type']) {
-    headers['Content-Type'] = 'application/json';
+  let requestData = options.data;
+  if (!requestData && options.body) {
+    if (typeof options.body === 'string') {
+      try {
+        requestData = JSON.parse(options.body);
+      } catch {
+        requestData = options.body;
+      }
+    } else {
+      requestData = options.body;
+    }
   }
 
-  const response = await fetch(url, {
-    ...options,
-    headers,
-  });
+  try {
+    const res: any = await request.request(
+      {
+        url,
+        method: options.method || 'GET',
+        data: requestData,
+        headers,
+      },
+      {
+        isTransformResponse: false,
+      }
+    );
 
-  const resJson: LoliaApiResponse<T> = await response.json();
+    const resObj: any = res;
 
-  if (!response.ok || (resJson.code !== 200 && resJson.code !== 0 && resJson.code !== 201)) {
-    throw new Error(resJson.msg || (resJson as any).message || `请求失败 (${response.status})`);
+    // 校验 Lolia API 返回的 code 状态码
+    if (resObj && typeof resObj.code === 'number') {
+      if (resObj.code !== 200 && resObj.code !== 0 && resObj.code !== 201) {
+        throw new Error(resObj.msg || resObj.message || `请求失败 (${resObj.code})`);
+      }
+      return resObj.data as T;
+    }
+
+    return resObj as T;
+  } catch (err: any) {
+    const errData = err.response?.data;
+    if (errData && (errData.msg || errData.message || errData.error_description)) {
+      throw new Error(errData.msg || errData.message || errData.error_description);
+    }
+    throw err;
   }
-
-  return resJson.data;
 }
 
 /**
@@ -118,7 +153,7 @@ export async function fetchTunnels(): Promise<LoliaTunnel[]> {
 export async function fetchNodes(): Promise<LoliaNode[]> {
   const data = await requestLoliaApi<{ nodes: LoliaNode[]; total: number }>('/user/nodes', {
     method: 'POST',
-    body: JSON.stringify({ page: 1, limit: 1000 }),
+    data: { page: 1, limit: 1000 },
   });
   return data?.nodes || [];
 }
@@ -129,7 +164,7 @@ export async function fetchNodes(): Promise<LoliaNode[]> {
 export async function createTunnel(params: CreateTunnelParams): Promise<any> {
   return requestLoliaApi('/user/tunnel', {
     method: 'POST',
-    body: JSON.stringify(params),
+    data: params,
   });
 }
 

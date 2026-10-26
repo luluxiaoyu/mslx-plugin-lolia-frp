@@ -3,7 +3,7 @@ import './style.css';
 
 export const pluginConfig = {
   name: 'MSLX.Plugin.Lolia.Frp',
-  version: '0.0.10',
+  version: '1.0.5',
 
   // 注入穿透服务商插槽
   extensions: [

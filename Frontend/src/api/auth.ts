@@ -1,6 +1,8 @@
+import request from 'mslx-request';
+
 export const LOLIA_OAUTH_CLIENT_ID = 'ajp1yp2ztx3m9pku';
 export const LOLIA_AUTH_ENDPOINT = 'https://dash.lolia.link/oauth/authorize';
-export const LOLIA_TOKEN_ENDPOINT = 'https://api.lolia.link/api/v1/oauth2/token';
+export const LOLIA_TOKEN_ENDPOINT = '/api/plugin/mslx-plugin-lolia-frp/oauth2/token';
 export const OFFICIAL_REDIRECT_URI = 'https://mslx.mslmc.cn/third-party/lolia-frp/callback';
 export const STORAGE_KEY = 'lolia_frp_user';
 export const PKCE_SESSION_KEY = 'lolia_frp_pkce_session';
@@ -137,21 +139,29 @@ export async function exchangeCodeForToken(
     redirect_uri: redirectUri,
   };
 
-  const response = await fetch(LOLIA_TOKEN_ENDPOINT, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Accept: 'application/json',
-    },
-    body: JSON.stringify(payload),
-  });
+  try {
+    const data: any = await request.post(
+      {
+        url: LOLIA_TOKEN_ENDPOINT,
+        data: payload,
+      },
+      {
+        isTransformResponse: false,
+      }
+    );
 
-  const data = await response.json();
-  if (!response.ok || data.error) {
-    throw new Error(data.error_description || data.error || data.msg || '获取 Access Token 失败');
+    if (!data || data.error) {
+      throw new Error(data?.error_description || data?.error || data?.msg || '获取 Access Token 失败');
+    }
+
+    return data as TokenResponse;
+  } catch (err: any) {
+    const errData = err.response?.data;
+    if (errData && (errData.error_description || errData.error || errData.msg || errData.message)) {
+      throw new Error(errData.error_description || errData.error || errData.msg || errData.message);
+    }
+    throw err;
   }
-
-  return data as TokenResponse;
 }
 
 /**
@@ -164,21 +174,29 @@ export async function refreshAccessToken(refreshToken: string): Promise<TokenRes
     refresh_token: refreshToken.trim(),
   };
 
-  const response = await fetch(LOLIA_TOKEN_ENDPOINT, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Accept: 'application/json',
-    },
-    body: JSON.stringify(payload),
-  });
+  try {
+    const data: any = await request.post(
+      {
+        url: LOLIA_TOKEN_ENDPOINT,
+        data: payload,
+      },
+      {
+        isTransformResponse: false,
+      }
+    );
 
-  const data = await response.json();
-  if (!response.ok || data.error) {
-    throw new Error(data.error_description || data.error || data.msg || '刷新令牌失败');
+    if (!data || data.error) {
+      throw new Error(data?.error_description || data?.error || data?.msg || '刷新令牌失败');
+    }
+
+    return data as TokenResponse;
+  } catch (err: any) {
+    const errData = err.response?.data;
+    if (errData && (errData.error_description || errData.error || errData.msg || errData.message)) {
+      throw new Error(errData.error_description || errData.error || errData.msg || errData.message);
+    }
+    throw err;
   }
-
-  return data as TokenResponse;
 }
 
 /**
